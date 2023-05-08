@@ -17,8 +17,9 @@ If you are an author of one of these old guides and would like to have the trans
 ## Oregon
 
 - Portand and the Gorge
-  - [Carver Bouldering Guide](https://github.com/andyruwruw/climbing-guidebooks-transcribed/blob/main/oregon/portland-and-the-gorge/carver-bouldering-guide.json)
+  - [Carver Bouldering Guide]()
     - By Jered Bernert and Spender Williams
+    - Removed
 - Willamette Valley
   - [Druid Stones](https://github.com/andyruwruw/climbing-guidebooks-transcribed/blob/main/oregon/willamette-valley/druid-stones.json)
     - By ire510
