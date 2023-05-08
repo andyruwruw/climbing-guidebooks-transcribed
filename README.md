@@ -16,12 +16,15 @@ If you are an author of one of these old guides and would like to have the trans
 
 ## Oregon
 
-- Portand and the Gorge
-  - [Carver Bouldering Guide]()
+- Portand & the Gorge
+  - Carver Bouldering Guide
     - By Jered Bernert and Spender Williams
-    - Removed
+    - No contact with author (05/08/2023)
+    - Removed. No longer in print, but I believe there's uncertainty whether land owners want this guide public.
 - Willamette Valley
   - [Druid Stones](https://github.com/andyruwruw/climbing-guidebooks-transcribed/blob/main/oregon/willamette-valley/druid-stones.json)
     - By ire510
+    - No contact with author (05/08/2023)
   - [The Garden](https://github.com/andyruwruw/climbing-guidebooks-transcribed/blob/main/oregon/willamette-valley/the-garden.json)
     - By ire510
+    - No contact with author (05/08/2023)
