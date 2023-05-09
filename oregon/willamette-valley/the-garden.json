@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.1.0",
   "name": "The Garden",
   "author": "ire510",
   "date": "2011",
@@ -9,6 +9,7 @@
   "children": [
     {
       "name": "Lower Garden",
+      "type": "area",
       "alt-names": [
         "Roadside"
       ],
@@ -21,10 +22,12 @@
         {
           "id": 1,
           "name": "Toilet Bowl",
+          "type": "boulder",
           "children": [
             {
               "id": 1,
               "name": "Toilet Bowl",
+              "type": "route",
               "grade": {
                 "grade": 0
               },
@@ -38,6 +41,7 @@
             {
               "id": 2,
               "name": "Scrubbing Bubbles",
+              "type": "route",
               "grade": {
                 "grade": 1
               },
@@ -47,6 +51,7 @@
             {
               "id": 3,
               "name": "P-Lunger",
+              "type": "route",
               "grade": {
                 "grade": 1,
                 "sub-grade": 1
@@ -62,10 +67,12 @@
         {
           "id": 2,
           "name": "Roadside Boulder",
+          "type": "boulder",
           "children": [
             {
               "id": 4,
               "name": "Project Roadside",
+              "type": "route",
               "grade": {
                 "grade": -2
               },
@@ -78,6 +85,7 @@
             {
               "id": 5,
               "name": "Project Roadside 2",
+              "type": "route",
               "grade": {
                 "grade": -2
               },
@@ -92,10 +100,12 @@
         {
           "id": 3,
           "name": "Turtle In A Half Shell",
+          "type": "boulder",
           "children": [
             {
               "id": 6,
               "name": "Leonardo",
+              "type": "route",
               "grade": {
                 "grade": 1
               },
@@ -109,6 +119,7 @@
             {
               "id": 7,
               "name": "Donatello",
+              "type": "route",
               "grade": {
                 "grade": 1,
                 "sub-grade": 1
@@ -119,6 +130,7 @@
             {
               "id": 8,
               "name": "Michelangelo",
+              "type": "route",
               "grade": {
                 "grade": 2
               },
@@ -131,6 +143,7 @@
             {
               "id": 9,
               "name": "Raphael Crack",
+              "type": "route",
               "grade": {
                 "grade": 0
               },
@@ -145,10 +158,12 @@
         {
           "id": 4,
           "name": "Gumby Warm-Up",
+          "type": "boulder",
           "children": [
             {
               "id": 10,
               "name": "Gumb",
+              "type": "route",
               "grade": {
                 "grade": 0
               },
@@ -162,6 +177,7 @@
             {
               "id": 11,
               "name": "ie",
+              "type": "route",
               "grade": {
                 "grade": -1
               },
@@ -177,12 +193,14 @@
         {
           "id": 5,
           "name": "Bitchin Corners",
+          "type": "boulder",
           "description": "Bitching Corners warm-up and Crack face the centerpiece Boys in the Woods Boulder. The steeper more quality flank fo Bitchin Corners is downhill, facing the road and accesses to Dan Dee's Phishing Buddy and Dan Dee Roof with bushwhack access to The Hueco Wall.",
           "transcription-notes": "Abbreviation expanded. Boulder IDs replaced with route name. Minor grammar error assumed and corrected.",
           "children": [
             {
               "id": 12,
               "name": "Bitchin Corners Warm-up",
+              "type": "route",
               "grade": {
                 "grade": -1
               },
@@ -196,6 +214,7 @@
             {
               "id": 13,
               "name": "Bitchin Corners Crack",
+              "type": "route",
               "grade": {
                 "grade": 0
               },
@@ -209,6 +228,7 @@
             {
               "id": 14,
               "name": "Claustrophobia",
+              "type": "route",
               "grade": {
                 "grade": 2
               },
@@ -218,6 +238,7 @@
             {
               "id": 15,
               "name": "Left Corner",
+              "type": "route",
               "grade": {
                 "grade": 1,
                 "sub-grade": 1
@@ -228,6 +249,7 @@
             {
               "id": 16,
               "name": "Bitchin Corners",
+              "type": "route",
               "grade": {
                 "grade": 2
               },
@@ -240,6 +262,7 @@
             {
               "id": 17,
               "name": "Right Arête",
+              "type": "route",
               "grade": {
                 "grade": 2
               },
@@ -254,10 +277,12 @@
         {
           "id": 6,
           "name": "Boys in the Woods",
+          "type": "boulder",
           "children": [
             {
               "id": 18,
               "name": "Ed's in the Woods",
+              "type": "route",
               "grade": {
                 "grade": 7
               },
@@ -270,6 +295,7 @@
             {
               "id": 19,
               "name": "Boys in the Woods Left",
+              "type": "route",
               "grade": {
                 "grade": 5
               },
@@ -280,6 +306,7 @@
             {
               "id": 20,
               "name": "Boys in the Woods",
+              "type": "route",
               "grade": {
                 "grade": 4
               },
@@ -294,6 +321,7 @@
             {
               "id": 21,
               "name": "Boys in the Woods Right",
+              "type": "route",
               "grade": {
                 "grade": 4
               },
@@ -303,6 +331,7 @@
             {
               "id": 22,
               "name": "Cuba Gooding Jr.'s Air Punches",
+              "type": "route",
               "grade": {
                 "grade": 3
               },
@@ -313,6 +342,7 @@
             {
               "id": 23,
               "name": "Ice Cubes Shiny Jerry Curl",
+              "type": "route",
               "grade": {
                 "grade": 4
               },
@@ -325,11 +355,13 @@
         {
           "id": 7,
           "name": "3-Star Ledge",
+          "type": "boulder",
           "children": [
             {
               "id": 24,
               "name": "Project Cave",
               "project-status": "open",
+              "type": "route",
               "grade": {
                 "grade": -2
               },
@@ -340,6 +372,7 @@
             {
               "id": 25,
               "name": "Odd Undercling",
+              "type": "route",
               "grade": {
                 "grade": 2,
                 "sub-grade": 1
@@ -354,6 +387,7 @@
             {
               "id": 26,
               "name": "Boys in the Woods",
+              "type": "route",
               "grade": {
                 "grade": 4
               },
@@ -367,6 +401,7 @@
             {
               "id": 27,
               "name": "No Ledge Face",
+              "type": "route",
               "grade": {
                 "grade": 2,
                 "sub-grade": 1
@@ -383,10 +418,12 @@
         {
           "id": 8,
           "name": "The Tonsil",
+          "type": "boulder",
           "children": [
             {
               "id": 28,
               "name": "Tongue Depressor",
+              "type": "route",
               "grade": {
                 "grade": 3
               },
@@ -400,6 +437,7 @@
             {
               "id": 29,
               "name": "The Tonsil",
+              "type": "route",
               "grade": {
                 "grade": 4
               },
@@ -412,10 +450,12 @@
         {
           "id": 9,
           "name": "All Sorts of Ease",
+          "type": "boulder",
           "children": [
             {
               "id": 30,
               "name": "All Sorts of Ease",
+              "type": "route",
               "grade": {
                 "grade": 0
               },
@@ -429,6 +469,7 @@
             {
               "id": 31,
               "name": "Walking the Dog",
+              "type": "route",
               "grade": {
                 "grade": -1
               },
@@ -441,6 +482,7 @@
             {
               "id": 32,
               "name": "Slabbing in the Shadow of Giants",
+              "type": "route",
               "grade": {
                 "grade": 1
               },
@@ -454,6 +496,7 @@
             {
               "id": 33,
               "name": "More Ease",
+              "type": "route",
               "grade": {
                 "grade": -1
               },
@@ -466,6 +509,7 @@
             {
               "id": 34,
               "name": "Even More Ease",
+              "type": "route",
               "grade": {
                 "grade": -1
               },
@@ -481,13 +525,16 @@
         {
           "id": 10,
           "name": "Meth Lab",
+          "type": "boulder",
           "children": [
             {
               "name": "Leave It To Jesus Flank",
+              "type": "face",
               "children": [
                 {
                   "id": 35,
                   "name": "Not Yet Done",
+                  "type": "route",
                   "grade": {
                     "grade": -2
                   },
@@ -502,6 +549,7 @@
                 {
                   "id": 36,
                   "name": "Southie's Northern Odub",
+                  "type": "route",
                   "grade": {
                     "grade": -2
                   },
@@ -514,6 +562,7 @@
                 {
                   "id": 37,
                   "name": "Not Yet Done",
+                  "type": "route",
                   "grade": {
                     "grade": -2
                   },
@@ -527,6 +576,7 @@
                 {
                   "id": 38,
                   "name": "Leave it to Jesus",
+                  "type": "route",
                   "grade": {
                     "grade": 2,
                     "sub-grade": 1
@@ -542,10 +592,12 @@
             },
             {
               "name": "The Lab",
+              "type": "face",
               "children": [
                 {
                   "id": 39,
                   "name": "Smack Down",
+                  "type": "route",
                   "grade": {
                     "grade": 6,
                     "sub-grade": 3
@@ -561,6 +613,7 @@
                 {
                   "id": 40,
                   "name": "Heisenberg",
+                  "type": "route",
                   "grade": {
                     "grade": 4,
                     "sub-grade": 3
@@ -575,6 +628,7 @@
                 {
                   "id": 41,
                   "name": "Meth Myth, (In Oregon There Is No)",
+                  "type": "route",
                   "grade": {
                     "grade": 6,
                     "sub-grade": 3
@@ -589,6 +643,7 @@
                 {
                   "id": 42,
                   "name": "Leary's Lunge",
+                  "type": "route",
                   "grade": {
                     "grade": 5,
                     "sub-grade": 3
@@ -602,6 +657,7 @@
                 {
                   "id": 43,
                   "name": "Meth Lab Dyno",
+                  "type": "route",
                   "grade": {
                     "grade": 1
                   },
@@ -616,6 +672,7 @@
                 {
                   "id": 43,
                   "name": "Meth Lab Dyno Sit",
+                  "type": "route",
                   "grade": {
                     "grade": 5,
                     "sub-grade": 3
@@ -632,6 +689,7 @@
                 {
                   "id": 44,
                   "name": "Tom's Psychedelic Trip",
+                  "type": "route",
                   "grade": {
                     "grade": 8
                   },
@@ -646,6 +704,7 @@
                 {
                   "id": 45,
                   "name": "Right Finish, Meth Lab Dyno",
+                  "type": "route",
                   "grade": {
                     "grade": 1
                   },
@@ -658,6 +717,7 @@
                 {
                   "id": 45,
                   "name": "Right Finish, Meth Lab Dyno Sit",
+                  "type": "route",
                   "grade": {
                     "grade": 5,
                     "sub-grade": 3
@@ -672,6 +732,7 @@
                 {
                   "id": 46,
                   "name": "Acacia Berlandieri",
+                  "type": "route",
                   "grade": {
                     "grade": 2,
                     "sub-grade": 1
@@ -686,6 +747,7 @@
                 {
                   "id": 47,
                   "name": "Descent",
+                  "type": "route",
                   "grade": {
                     "grade": -1
                   },
@@ -700,6 +762,7 @@
             },
             {
               "name": "Front Roped Potential",
+              "type": "face",
               "transcription-notes": "Photo simply depicts position of 2 bolt anchor."
             }
           ]
@@ -707,10 +770,12 @@
         {
           "id": 11,
           "name": "Uphill of Boys in the Woods",
+          "type": "boulder",
           "children": [
             {
               "id": 48,
               "name": "Slab",
+              "type": "route",
               "grade": {
                 "grade": 1
               },
@@ -724,6 +789,7 @@
             {
               "id": 49,
               "name": "Not Yet Done",
+              "type": "route",
               "grade": {
                 "grade": -2
               },
@@ -738,6 +804,7 @@
             {
               "id": 50,
               "name": "Not Yet Done",
+              "type": "route",
               "grade": {
                 "grade": -2
               },
@@ -754,10 +821,12 @@
         {
           "id": 12,
           "name": "The Bubbler",
+          "type": "boulder",
           "children": [
             {
               "id": 51,
               "name": "The Bubbler",
+              "type": "route",
               "grade": {
                 "grade": 3
               },
@@ -767,6 +836,7 @@
             {
               "id": 52,
               "name": "Sherlock",
+              "type": "route",
               "grade": {
                 "grade": 3
               },
@@ -776,6 +846,7 @@
             {
               "id": 53,
               "name": "Chillum",
+              "type": "route",
               "grade": {
                 "grade": 2,
                 "sub-grade": 1
@@ -786,6 +857,7 @@
             {
               "id": 54,
               "name": "Crawl Before You Walk",
+              "type": "route",
               "grade": {
                 "grade": -1,
                 "sub-grade": 2
@@ -802,10 +874,12 @@
         {
           "id": 13,
           "name": "Warm-Up Spire",
+          "type": "boulder",
           "children": [
             {
               "id": 55,
               "name": "Warm-Up",
+              "type": "route",
               "grade": {
                 "grade": 0
               },
@@ -819,6 +893,7 @@
             {
               "id": 56,
               "name": "Warm-Up 2",
+              "type": "route",
               "grade": {
                 "grade": 0
               },
@@ -832,6 +907,7 @@
             {
               "id": 57,
               "name": "Hidden Warm-Up",
+              "type": "route",
               "grade": {
                 "grade": 1
               },
@@ -847,10 +923,12 @@
         {
           "id": 14,
           "name": "The Annex",
+          "type": "boulder",
           "children": [
             {
               "id": 58,
               "name": "Get Out of My Nook",
+              "type": "route",
               "grade": {
                 "grade": 2
               },
@@ -865,13 +943,16 @@
         {
           "id": 15,
           "name": "The Office",
+          "type": "boulder",
           "children": [
             {
               "name": "Annex Side",
+              "type": "face",
               "children": [
                 {
                   "id": 59,
                   "name": "Dwight",
+                  "type": "route",
                   "grade": {
                     "grade": 2,
                     "sub-grade": -1
@@ -886,10 +967,12 @@
             },
             {
               "name": "Backside Diffs",
+              "type": "face",
               "children": [
                 {
                   "id": 60,
                   "name": "Kelly Kapoor",
+                  "type": "route",
                   "grade": {
                     "grade": 7
                   },
@@ -902,6 +985,7 @@
                 {
                   "id": 61,
                   "name": "Ryan \"the Temp\"",
+                  "type": "route",
                   "grade": {
                     "grade": 5,
                     "sub-grade": 2
@@ -915,6 +999,7 @@
                 {
                   "id": 62,
                   "name": "Office Descent",
+                  "type": "route",
                   "grade": {
                     "grade": 1
                   },
@@ -929,10 +1014,12 @@
             },
             {
               "name": "Front-side",
+              "type": "face",
               "children": [
                 {
                   "id": 63,
                   "name": "Jim Halbert",
+                  "type": "route",
                   "grade": {
                     "grade": 2,
                     "sub-grade": 2
@@ -945,6 +1032,7 @@
                 {
                   "id": 64,
                   "name": "Michael Scott",
+                  "type": "route",
                   "grade": {
                     "grade": 3,
                     "sub-grade": 3
@@ -955,6 +1043,7 @@
                 {
                   "id": 65,
                   "name": "Daryl Philbin",
+                  "type": "route",
                   "grade": {
                     "grade": 2,
                     "sub-grade": 2
@@ -967,6 +1056,7 @@
                 {
                   "id": 66,
                   "name": "Toby Flenderson Traverse",
+                  "type": "route",
                   "grade": {
                     "grade": 1
                   },
@@ -983,10 +1073,12 @@
         {
           "id": 16,
           "name": "Crash Test Dummies",
+          "type": "boulder",
           "children": [
             {
               "id": 67,
               "name": "Vince",
+              "type": "route",
               "grade": {
                 "grade": 1,
                 "sub-grade": 1
@@ -999,6 +1091,7 @@
             {
               "id": 68,
               "name": "Larry",
+              "type": "route",
               "grade": {
                 "grade": 1,
                 "sub-grade": 1
@@ -1012,6 +1105,7 @@
             {
               "id": 69,
               "name": "Don't Be A Dummy, Pad Up",
+              "type": "route",
               "grade": {
                 "grade": 1
               },
@@ -1025,10 +1119,12 @@
         {
           "id": 17,
           "name": "Fight Club",
+          "type": "boulder",
           "children": [
             {
               "id": 70,
               "name": "Bloody Knuckles Crack",
+              "type": "route",
               "grade": {
                 "grade": 1,
                 "sub-grade": 1
@@ -1041,6 +1137,7 @@
             {
               "id": 71,
               "name": "Bloody Knuckles",
+              "type": "route",
               "grade": {
                 "grade": 2,
                 "sub-grade": -1
@@ -1054,6 +1151,7 @@
             {
               "id": 72,
               "name": "Cacophony Society",
+              "type": "route",
               "grade": {
                 "grade": 2
               },
@@ -1066,6 +1164,7 @@
             {
               "id": 73,
               "name": "Übermensch",
+              "type": "route",
               "grade": {
                 "grade": 3
               },
@@ -1075,6 +1174,7 @@
             {
               "id": 74,
               "name": "Über, Übermensch",
+              "type": "route",
               "grade": {
                 "grade": 4
               },
@@ -1084,6 +1184,7 @@
             {
               "id": 75,
               "name": "Fight Club",
+              "type": "route",
               "grade": {
                 "grade": 7,
                 "sub-grade": 3
@@ -1094,6 +1195,7 @@
             {
               "id": 76,
               "name": "Fight Club 2",
+              "type": "route",
               "grade": {
                 "grade": 7,
                 "sub-grade": 3
@@ -1104,6 +1206,7 @@
             {
               "id": 77,
               "name": "Brewmaster",
+              "type": "route",
               "grade": {
                 "grade": 2
               },
@@ -1115,10 +1218,12 @@
         {
           "id": 18,
           "name": "Tyler Durden",
+          "type": "boulder",
           "children": [
             {
               "id": 78,
               "name": "Durden Crack",
+              "type": "route",
               "grade": {
                 "grade": 1
               },
@@ -1130,6 +1235,7 @@
             {
               "id": 79,
               "name": "Durden Lie-back",
+              "type": "route",
               "grade": {
                 "grade": 2,
                 "sub-grade": 1
@@ -1145,6 +1251,7 @@
             {
               "id": 80,
               "name": "Tyler Durden",
+              "type": "route",
               "grade": {
                 "grade": 3
               },
@@ -1156,6 +1263,7 @@
             {
               "id": 81,
               "name": "Project Mayhem",
+              "type": "route",
               "grade": {
                 "grade": 1,
                 "sub-grade": 1
@@ -1170,10 +1278,12 @@
         {
           "id": 19,
           "name": "Trust",
+          "type": "boulder",
           "children": [
             {
               "id": 82,
               "name": "Trust",
+              "type": "route",
               "grade": {
                 "grade": 1
               },
@@ -1187,6 +1297,7 @@
             {
               "id": 83,
               "name": "Iron Cross",
+              "type": "route",
               "grade": {
                 "grade": 1,
                 "sub-grade": 3
@@ -1202,10 +1313,12 @@
         {
           "id": 20,
           "name": "Mini-Me",
+          "type": "boulder",
           "children": [
             {
               "id": 84,
               "name": "Mr. Bigglesworth",
+              "type": "route",
               "grade": {
                 "grade": 0,
                 "sub-grade": 1
@@ -1219,6 +1332,7 @@
             {
               "id": 85,
               "name": "Dr. Evil",
+              "type": "route",
               "grade": {
                 "grade": 2
               },
@@ -1229,6 +1343,7 @@
               "id": 85,
               "name": "KISS (Knights In The Servcie of Steve (Nelson))",
               "eliminate": true,
+              "type": "route",
               "grade": {
                 "grade": 3
               },
@@ -1244,6 +1359,7 @@
             {
               "id": 86,
               "name": "Number 2",
+              "type": "route",
               "grade": {
                 "grade": 2,
                 "sub-grade": 1
@@ -1257,6 +1373,7 @@
             {
               "id": 87,
               "name": "Shagadellic Traverse",
+              "type": "route",
               "grade": {
                 "grade": 1,
                 "sub-grade": 3
@@ -1270,6 +1387,7 @@
             {
               "id": 88,
               "name": "Austin Powers",
+              "type": "route",
               "grade": {
                 "grade": 1,
                 "sub-grade": 1
@@ -1280,6 +1398,7 @@
             {
               "id": 89,
               "name": "Mini-Me",
+              "type": "route",
               "grade": {
                 "grade": 2
               },
@@ -1293,6 +1412,7 @@
             {
               "id": 90,
               "name": "Felicity Shagwell",
+              "type": "route",
               "grade": {
                 "grade": 1,
                 "sub-grade": 1
@@ -1308,10 +1428,12 @@
         {
           "id": 21,
           "name": "Earned V2's",
+          "type": "boulder",
           "children": [
             {
               "id": 91,
               "name": "A Good V2",
+              "type": "route",
               "grade": {
                 "grade": 2
               },
@@ -1326,6 +1448,7 @@
             {
               "id": 92,
               "name": "Another Good V2",
+              "type": "route",
               "grade": {
                 "grade": 2
               },
@@ -1341,10 +1464,12 @@
         {
           "id": 22,
           "name": "E's Dirty B",
+          "type": "boulder",
           "children": [
             {
               "id": 93,
               "name": "E's Dirty B",
+              "type": "route",
               "grade": {
                 "grade": 2,
                 "sub-grade": 2
@@ -1355,6 +1480,7 @@
             {
               "id": 94,
               "name": "E's Dirty B (Right Finish)",
+              "type": "route",
               "grade": {
                 "grade": 2,
                 "sub-grade": 2
@@ -1365,6 +1491,7 @@
             {
               "id": 95,
               "name": "Blame It On The Rain",
+              "type": "route",
               "grade": {
                 "grade": 2,
                 "sub-grade": 1
@@ -1375,6 +1502,7 @@
             {
               "id": 96,
               "name": "Green Hell",
+              "type": "route",
               "grade": {
                 "grade": 1,
                 "sub-grade": 1
@@ -1391,10 +1519,12 @@
         {
           "id": 23,
           "name": "Undertow",
+          "type": "boulder",
           "children": [
             {
               "id": 97,
               "name": "Spray Skirt",
+              "type": "route",
               "grade": {
                 "grade": 7,
                 "sub-grade": 2
@@ -1405,6 +1535,7 @@
             {
               "id": 98,
               "name": "Spray Against the Undertow",
+              "type": "route",
               "grade": {
                 "grade": 2
               },
@@ -1414,6 +1545,7 @@
             {
               "id": 99,
               "name": "Undertow",
+              "type": "route",
               "grade": {
                 "grade": 3
               },
@@ -1426,6 +1558,7 @@
             {
               "id": 100,
               "name": "Shake It Out",
+              "type": "route",
               "grade": {
                 "grade": 2,
                 "sub-grade": -1
@@ -1439,6 +1572,7 @@
             {
               "id": 101,
               "name": "Simple Math",
+              "type": "route",
               "grade": {
                 "grade": 2,
                 "sub-grade": -1
@@ -1449,6 +1583,7 @@
             {
               "id": 102,
               "name": "Tide Pool",
+              "type": "route",
               "grade": {
                 "grade": 6,
                 "sub-grade": 3
@@ -1465,10 +1600,12 @@
         {
           "id": 24,
           "name": "Silly Steep Mantle",
+          "type": "boulder",
           "children": [
             {
               "id": 103,
               "name": "Silly Steep Mantle",
+              "type": "route",
               "grade": {
                 "grade": 1,
                 "sub-grade": 1
@@ -1486,10 +1623,12 @@
         {
           "id": 25,
           "name": "Car Alarm",
+          "type": "boulder",
           "children": [
             {
               "id": 104,
               "name": "150 Ram",
+              "type": "route",
               "grade": {
                 "grade": 1,
                 "sub-grade": 1
@@ -1503,6 +1642,7 @@
             {
               "id": 105,
               "name": "2 Ton Chevy",
+              "type": "route",
               "grade": {
                 "grade": 0
               },
@@ -1512,6 +1652,7 @@
             {
               "id": 106,
               "name": "Pup Truck",
+              "type": "route",
               "grade": {
                 "grade": 1
               },
@@ -1523,10 +1664,12 @@
         {
           "id": 26,
           "name": "Road Rash",
+          "type": "boulder",
           "children": [
             {
               "id": 107,
               "name": "Radeo",
+              "type": "route",
               "grade": {
                 "grade": 0
               },
@@ -1538,6 +1681,7 @@
             {
               "id": 108,
               "name": "La Machina de Luna",
+              "type": "route",
               "grade": {
                 "grade": 0
               },
@@ -1548,10 +1692,12 @@
         {
           "id": 27,
           "name": "E's V7",
+          "type": "boulder",
           "children": [
             {
               "id": 109,
               "name": "E's V7",
+              "type": "route",
               "grade": {
                 "grade": 7
               },
@@ -1566,10 +1712,12 @@
         {
           "id": 28,
           "name": "Near Meth Lab",
+          "type": "boulder",
           "children": [
             {
               "id": 110,
               "name": "Near Meth Lab",
+              "type": "route",
               "grade": {
                 "grade": -2
               },
@@ -1583,10 +1731,12 @@
         {
           "id": 29,
           "name": "Meth Lab High-ball",
+          "type": "boulder",
           "children": [
             {
               "id": 111,
               "name": "Meth Lab High-ball",
+              "type": "route",
               "grade": {
                 "grade": 1,
                 "sub-grade": 1
@@ -1602,10 +1752,12 @@
         {
           "id": 30,
           "name": "Swollen Member",
+          "type": "boulder",
           "children": [
             {
               "id": 112,
               "name": "Swollen Member",
+              "type": "route",
               "grade": {
                 "grade": 2
               },
@@ -1622,10 +1774,12 @@
         {
           "id": 31,
           "name": "Motorhead",
+          "type": "boulder",
           "children": [
             {
               "id": 113,
               "name": "MotorArête",
+              "type": "route",
               "grade": {
                 "grade": 1,
                 "sub-grade": 1
@@ -1639,6 +1793,7 @@
             {
               "id": 114,
               "name": "Motorhead",
+              "type": "route",
               "grade": {
                 "grade": 1
               },
@@ -1652,6 +1807,7 @@
             {
               "id": 115,
               "name": "MotorMouth",
+              "type": "route",
               "grade": {
                 "grade": 3
               },
@@ -1662,10 +1818,12 @@
         {
           "id": 32,
           "name": "Next to the Good V3",
+          "type": "boulder",
           "children": [
             {
               "id": 116,
               "name": "Next to the Good V3",
+              "type": "route",
               "grade": {
                 "grade": 3
               },
@@ -1680,10 +1838,12 @@
         {
           "id": 33,
           "name": "The Good V3",
+          "type": "boulder",
           "children": [
             {
               "id": 117,
               "name": "The Good V3",
+              "type": "route",
               "grade": {
                 "grade": 3
               },
@@ -1697,6 +1857,7 @@
             {
               "id": 118,
               "name": "Early Exit",
+              "type": "route",
               "grade": {
                 "grade": 1,
                 "sub-grade": 1
@@ -1707,6 +1868,7 @@
             {
               "id": 119,
               "name": "Another V3",
+              "type": "route",
               "grade": {
                 "grade": 3,
                 "sub-grade": 1
@@ -1719,10 +1881,12 @@
         {
           "id": 34,
           "name": "Slab",
+          "type": "boulder",
           "children": [
             {
               "id": 120,
               "name": "Cookie Monster",
+              "type": "route",
               "grade": {
                 "grade": -1
               },
@@ -1736,6 +1900,7 @@
             {
               "id": 121,
               "name": "Abby Caddaby",
+              "type": "route",
               "grade": {
                 "grade": -1
               },
@@ -1749,6 +1914,7 @@
             {
               "id": 122,
               "name": "Spot Me Elmo",
+              "type": "route",
               "grade": {
                 "grade": -1
               },
@@ -1764,10 +1930,12 @@
         {
           "id": 35,
           "name": "The Orb",
+          "type": "boulder",
           "children": [
             {
               "id": 123,
               "name": "The Orb",
+              "type": "route",
               "grade": {
                 "grade": 2
               },
@@ -1784,10 +1952,12 @@
         {
           "id": 36,
           "name": "Frontside Baldo",
+          "type": "boulder",
           "children": [
             {
               "id": 124,
               "name": "Baldinator",
+              "type": "route",
               "grade": {
                 "grade": 1,
                 "sub-grade": 1
@@ -1801,6 +1971,7 @@
             {
               "id": 125,
               "name": "Frontside Baldo",
+              "type": "route",
               "grade": {
                 "grade": 1
               },
@@ -1810,6 +1981,7 @@
             {
               "id": 126,
               "name": "Baldo Sit",
+              "type": "route",
               "grade": {
                 "grade": 2,
                 "sub-grade": -1
@@ -1824,10 +1996,12 @@
         {
           "id": 37,
           "name": "Dan Dee's Phishing Buddy",
+          "type": "boulder",
           "children": [
             {
               "id": 127,
               "name": "Dan Dee's Phishing Buddy",
+              "type": "route",
               "grade": {
                 "grade": 2,
                 "sub-grade": 1
@@ -1843,10 +2017,12 @@
         {
           "id": 38,
           "name": "Dan Dee Roof",
+          "type": "boulder",
           "children": [
             {
               "id": 128,
               "name": "Dan Dee's Roof",
+              "type": "route",
               "grade": {
                 "grade": 2,
                 "sub-grade": -1
@@ -1862,6 +2038,7 @@
             {
               "id": 129,
               "name": "Dan Dee's Arête",
+              "type": "route",
               "grade": {
                 "grade": 3,
                 "sub-grade": -1
@@ -1877,10 +2054,12 @@
         {
           "id": 39,
           "name": "Hueco Wall",
+          "type": "boulder",
           "children": [
             {
               "id": 130,
               "name": "Not So Hueco",
+              "type": "route",
               "grade": {
                 "grade": 2,
                 "sub-grade": 2
@@ -1894,6 +2073,7 @@
             {
               "id": 131,
               "name": "A Cruel Dance",
+              "type": "route",
               "grade": {
                 "grade": 2,
                 "sub-grade": 1
@@ -1907,6 +2087,7 @@
             {
               "id": 132,
               "name": "Yellowbottom",
+              "type": "route",
               "grade": {
                 "grade": 3
               },
@@ -1919,6 +2100,7 @@
             {
               "id": 133,
               "name": "Hueco Wabo",
+              "type": "route",
               "grade": {
                 "grade": 3,
                 "sub-grade": 1
@@ -1935,6 +2117,7 @@
             {
               "id": 134,
               "name": "Hueco Project",
+              "type": "route",
               "grade": {
                 "grade": -2
               },
@@ -1949,10 +2132,12 @@
         {
           "id": 40,
           "name": "Hueco Warm-Up",
+          "type": "boulder",
           "children": [
             {
               "id": 135,
               "name": "Hueco Warm-Up Left",
+              "type": "route",
               "grade": {
                 "grade": 0
               },
@@ -1967,6 +2152,7 @@
             {
               "id": 136,
               "name": "Hueco Warm-Up Right",
+              "type": "route",
               "grade": {
                 "grade": 0
               },
@@ -1982,13 +2168,16 @@
         {
           "id": 41,
           "name": "Big",
+          "type": "boulder",
           "children": [
             {
               "name": "Slab Flank",
+              "type": "face",
               "children": [
                 {
                   "id": 137,
                   "name": "Big Slab",
+                  "type": "route",
                   "grade": {
                     "grade": 0
                   },
@@ -2004,6 +2193,7 @@
                 {
                   "id": 138,
                   "name": "Tree Slab",
+                  "type": "route",
                   "grade": {
                     "grade": 0
                   },
@@ -2018,6 +2208,7 @@
                 {
                   "id": 139,
                   "name": "Pockets",
+                  "type": "route",
                   "grade": {
                     "grade": 3,
                     "sub-grade": -1
@@ -2032,10 +2223,12 @@
             },
             {
               "name": "V10 Cave",
+              "type": "face",
               "children": [
                 {
                   "id": 140,
                   "name": "All Berned Up",
+                  "type": "route",
                   "grade": {
                     "grade": 10
                   },
@@ -2045,10 +2238,12 @@
             },
             {
               "name": "Shed Off",
+              "type": "face",
               "children": [
                 {
                   "id": 141,
                   "name": "Obie",
+                  "type": "route",
                   "grade": {
                     "grade": 1
                   },
@@ -2058,6 +2253,7 @@
                 {
                   "id": 142,
                   "name": "Bruno",
+                  "type": "route",
                   "grade": {
                     "grade": 1,
                     "sub-grade": 1
@@ -2069,6 +2265,7 @@
                 {
                   "id": 143,
                   "name": "Classique",
+                  "type": "route",
                   "grade": {
                     "grade": 2,
                     "sub-grade": -2
@@ -2083,10 +2280,12 @@
             },
             {
               "name": "Crazy Cave",
+              "type": "face",
               "children": [
                 {
                   "id": 144,
                   "name": "Crazy Cool Arête",
+                  "type": "route",
                   "grade": {
                     "grade": 2
                   },
@@ -2099,6 +2298,7 @@
                 {
                   "id": 145,
                   "name": "Sharma Cave",
+                  "type": "route",
                   "grade": {
                     "grade": -2
                   },
@@ -2111,15 +2311,13 @@
               ]
             },
             {
-              "name": "Chunk Under Big's Crazy Cave and Off-Vert Wall",
-              "description": "No climbs have been reported for this chunk."
-            },
-            {
               "name": "Off-Vert Wall",
+              "type": "face",
               "children": [
                 {
                   "id": 146,
                   "name": "Sometimes a Great Motion",
+                  "type": "route",
                   "grade": {
                     "grade": 3,
                     "sub-grade": 1
@@ -2132,6 +2330,7 @@
                 {
                   "id": 147,
                   "name": "Big Stem",
+                  "type": "route",
                   "grade": {
                     "grade": 2
                   },
@@ -2141,6 +2340,7 @@
                 {
                   "id": 148,
                   "name": "Mini-Hydrotube",
+                  "type": "route",
                   "grade": {
                     "grade": 1,
                     "sub-grade": 2
@@ -2154,6 +2354,7 @@
                 {
                   "id": 149,
                   "name": "Eric and Ed Probably Did it",
+                  "type": "route",
                   "grade": {
                     "grade": -2
                   },
@@ -2163,6 +2364,7 @@
                 {
                   "id": 150,
                   "name": "Becky's Roof Start",
+                  "type": "route",
                   "grade": {
                     "grade": 2,
                     "sub-grade": 1
@@ -2173,6 +2375,7 @@
                 {
                   "id": 151,
                   "name": "Off Vert Wall Warm-Up",
+                  "type": "route",
                   "grade": {
                     "grade": 1,
                     "sub-grade": 1
@@ -2188,15 +2391,24 @@
           ]
         },
         {
+          "id": 40,
+          "name": "Chunk Under Big's Crazy Cave and Off-Vert Wall",
+          "type": "boulder",
+          "description": "No climbs have been reported for this chunk."
+        },
+        {
           "id": 41,
           "name": "Big Fred",
+          "type": "boulder",
           "children": [
             {
               "name": "Slopodon Milošević Side",
+              "type": "face",
               "children": [
                 {
                   "id": 154,
                   "name": "Slopodon Milošević",
+                  "type": "route",
                   "grade": {
                     "grade": 4,
                     "sub-grade": 2
@@ -2213,6 +2425,7 @@
                 {
                   "id": 155,
                   "name": "O Trice",
+                  "type": "route",
                   "grade": {
                     "grade": 2,
                     "sub-grade": 1
@@ -2226,6 +2439,7 @@
                 {
                   "id": 156,
                   "name": "Joey",
+                  "type": "route",
                   "grade": {
                     "grade": 2,
                     "sub-grade": 1
@@ -2236,6 +2450,7 @@
                 {
                   "id": 157,
                   "name": "Shake It Out",
+                  "type": "route",
                   "grade": {
                     "grade": 2,
                     "sub-grade": -1
@@ -2246,6 +2461,7 @@
                 {
                   "id": 158,
                   "name": "Got Some Teeth",
+                  "type": "route",
                   "grade": {
                     "grade": 3,
                     "sub-grade": -1
@@ -2260,10 +2476,12 @@
             },
             {
               "name": "Family Affair Corner",
+              "type": "face",
               "children": [
                 {
                   "id": 159,
                   "name": "Family Affair",
+                  "type": "route",
                   "grade": {
                     "grade": -1
                   },
@@ -2279,10 +2497,12 @@
             },
             {
               "name": "Backside",
+              "type": "face",
               "children": [
                 {
                   "id": 160,
                   "name": "Backside Baldo",
+                  "type": "route",
                   "grade": {
                     "grade": 2,
                     "sub-grade": -1
@@ -2303,14 +2523,17 @@
         {
           "id": 42,
           "name": "Azain",
+          "type": "boulder",
           "children": [
             {
-              "name": "Backside",
+              "name": "Crack Side",
+              "type": "face",
               "description": "Scrambling uphill from The Good V3, Ed's Arête is the first thing in view. Heading left at this fork puts you at Azain Crack Side, veering right continues onto Big Fred, Angry Grandma or the Hula Side of Azain.",
               "children": [
                 {
                   "id": 161,
                   "name": "Ed's Arête",
+                  "type": "route",
                   "grade": {
                     "grade": 4,
                     "sub-grade": 3
@@ -2323,6 +2546,7 @@
                 {
                   "id": 162,
                   "name": "Wash the Dishes",
+                  "type": "route",
                   "grade": {
                     "grade": 3,
                     "sub-grade": -1
@@ -2332,6 +2556,7 @@
                 {
                   "id": 163,
                   "name": "Picking-Pockets",
+                  "type": "route",
                   "grade": {
                     "grade": 1,
                     "sub-grade": 1
@@ -2342,6 +2567,7 @@
                 {
                   "id": 164,
                   "name": "Kill Your Heros",
+                  "type": "route",
                   "grade": {
                     "grade": 1,
                     "sub-grade": 1
@@ -2355,6 +2581,7 @@
                 {
                   "id": 165,
                   "name": "Azain Crack",
+                  "type": "route",
                   "grade": {
                     "grade": 1
                   },
@@ -2366,6 +2593,7 @@
                 {
                   "id": 166,
                   "name": "Into the Light",
+                  "type": "route",
                   "grade": {
                     "grade": 6
                   },
@@ -2379,11 +2607,13 @@
               ]
             },
             {
-              "name": "Backside",
+              "name": "Hula Side",
+              "type": "face",
               "children": [
                 {
                   "id": 170,
                   "name": "Mauritania",
+                  "type": "route",
                   "grade": {
                     "grade": 2,
                     "sub-grade": 2
@@ -2394,6 +2624,7 @@
                 {
                   "id": 171,
                   "name": "Blues From Down Here",
+                  "type": "route",
                   "grade": {
                     "grade": 1,
                     "sub-grade": 1
@@ -2404,6 +2635,7 @@
                 {
                   "id": 172,
                   "name": "Staring at the Sun",
+                  "type": "route",
                   "grade": {
                     "grade": 1,
                     "sub-grade": 1
@@ -2414,6 +2646,7 @@
                 {
                   "id": 173,
                   "name": "Hula Slab",
+                  "type": "route",
                   "grade": {
                     "grade": 0
                   },
@@ -2425,6 +2658,7 @@
                 {
                   "id": 174,
                   "name": "Hula Chimney",
+                  "type": "route",
                   "grade": {
                     "grade": 0,
                     "sub-grade": 2
@@ -2439,6 +2673,7 @@
                 {
                   "id": 175,
                   "name": "Hula",
+                  "type": "route",
                   "grade": {
                     "grade": 2
                   },
@@ -2450,10 +2685,12 @@
             },
             {
               "name": "Full Stroke Cave",
+              "type": "face",
               "children": [
                 {
                   "id": 176,
                   "name": "Psychodork",
+                  "type": "route",
                   "grade": {
                     "grade": 4,
                     "sub-grade": 2
@@ -2467,6 +2704,7 @@
                 {
                   "id": 177,
                   "name": "Oregon Arête",
+                  "type": "route",
                   "grade": {
                     "grade": 3,
                     "sub-grade": 1
@@ -2482,6 +2720,7 @@
                 {
                   "id": 178,
                   "name": "Eskimo Roll",
+                  "type": "route",
                   "grade": {
                     "grade": 6,
                     "sub-grade": 2
@@ -2492,6 +2731,7 @@
                 {
                   "id": 179,
                   "name": "Full Stroke",
+                  "type": "route",
                   "grade": {
                     "grade": 2
                   },
@@ -2505,6 +2745,7 @@
                 {
                   "id": 180,
                   "name": "Dog Paddle",
+                  "type": "route",
                   "grade": {
                     "grade": 3,
                     "sub-grade": 1
@@ -2515,6 +2756,7 @@
                 {
                   "id": 181,
                   "name": "2 Pad Start",
+                  "type": "route",
                   "grade": {
                     "grade": 4
                   },
@@ -2524,6 +2766,7 @@
                 {
                   "id": 182,
                   "name": "The Other Bernd V10",
+                  "type": "route",
                   "grade": {
                     "grade": 10
                   },
@@ -2537,6 +2780,7 @@
                 {
                   "id": 183,
                   "name": "Soule Did It Off Width",
+                  "type": "route",
                   "grade": {
                     "grade": 2,
                     "sub-grade": 1
@@ -2550,6 +2794,7 @@
                 {
                   "id": 184,
                   "name": "Godfry's Grovel Roof",
+                  "type": "route",
                   "grade": {
                     "grade": 3
                   },
@@ -2564,6 +2809,7 @@
                 {
                   "id": 185,
                   "name": "Bag of Tricks",
+                  "type": "route",
                   "grade": {
                     "grade": 1
                   },
@@ -2578,10 +2824,12 @@
             },
             {
               "name": "Gumby Slab",
+              "type": "face",
               "children": [
                 {
                   "id": 186,
                   "name": "Gumby Arête",
+                  "type": "route",
                   "grade": {
                     "grade": 1
                   },
@@ -2591,6 +2839,7 @@
                 {
                   "id": 187,
                   "name": "Gumby Slab",
+                  "type": "route",
                   "grade": {
                     "grade": 1
                   },
@@ -2603,6 +2852,7 @@
                 {
                   "id": 188,
                   "name": "Gumby Crack",
+                  "type": "route",
                   "grade": {
                     "grade": 1
                   },
@@ -2616,6 +2866,7 @@
                 {
                   "id": 189,
                   "name": "Slopey Sally",
+                  "type": "route",
                   "grade": {
                     "grade": 1
                   },
@@ -2626,10 +2877,12 @@
             },
             {
               "name": "Bat Cave",
+              "type": "face",
               "children": [
                 {
                   "id": 190,
                   "name": "Eric and Ed Did It",
+                  "type": "route",
                   "grade": {
                     "grade": 7,
                     "sub-grade": 3
@@ -2644,6 +2897,7 @@
                 {
                   "id": 191,
                   "name": "Bat Cave T/R Left",
+                  "type": "route",
                   "grade": {
                     "grade": 0,
                     "sub-grade": 2
@@ -2658,6 +2912,7 @@
                 {
                   "id": 192,
                   "name": "Bat Cave T/R Right",
+                  "type": "route",
                   "grade": {
                     "grade": 0,
                     "sub-grade": 2
@@ -2676,10 +2931,12 @@
         {
           "id": 44,
           "name": "Azain Spire",
+          "type": "boulder",
           "children": [
             {
               "id": 193,
               "name": "Spire Sit-Down",
+              "type": "route",
               "grade": {
                 "grade": 1
               },
@@ -2689,6 +2946,7 @@
             {
               "id": 194,
               "name": "Snakes and Martyrs",
+              "type": "route",
               "grade": {
                 "grade": 0
               },
@@ -2701,6 +2959,7 @@
             {
               "id": 195,
               "name": "Soul Wars",
+              "type": "route",
               "grade": {
                 "grade": 0,
                 "sub-grade": 1
@@ -2717,10 +2976,12 @@
         {
           "id": 45,
           "name": "Chockstone High-ball",
+          "type": "boulder",
           "children": [
             {
               "id": 196,
               "name": "Chockstone High-ball",
+              "type": "route",
               "grade": {
                 "grade": 1,
                 "sub-grade": 1
@@ -2735,6 +2996,7 @@
             {
               "id": 197,
               "name": "Chockstone Crack",
+              "type": "route",
               "grade": {
                 "grade": 0,
                 "sub-grade": 1
@@ -2749,6 +3011,7 @@
             {
               "id": 198,
               "name": "Chockstone Arête Steep",
+              "type": "route",
               "grade": {
                 "grade": 2,
                 "sub-grade": -1
@@ -2764,6 +3027,7 @@
             {
               "id": 199,
               "name": "Chockstone Arête Slab",
+              "type": "route",
               "grade": {
                 "grade": -1,
                 "sub-grade": 2
@@ -2777,6 +3041,7 @@
             {
               "id": 200,
               "name": "We Own The Sky",
+              "type": "route",
               "grade": {
                 "grade": -1,
                 "sub-grade": 1
@@ -2787,6 +3052,7 @@
             {
               "id": 201,
               "name": "Midnight City",
+              "type": "route",
               "grade": {
                 "grade": -1
               },
@@ -2798,6 +3064,7 @@
             {
               "id": 202,
               "name": "Audience of One",
+              "type": "route",
               "grade": {
                 "grade": -1
               },
@@ -2810,6 +3077,7 @@
             {
               "id": 203,
               "name": "Angus",
+              "type": "route",
               "grade": {
                 "grade": -1
               },
@@ -2822,6 +3090,7 @@
             {
               "id": 204,
               "name": "Pelton Problem",
+              "type": "route",
               "grade": {
                 "grade": 1
               },
@@ -2833,10 +3102,12 @@
         {
           "id": 46,
           "name": "Angry Grandma",
+          "type": "boulder",
           "children": [
             {
               "id": 205,
               "name": "Grandma Ridge",
+              "type": "route",
               "grade": {
                 "grade": 0
               },
@@ -2848,6 +3119,7 @@
             {
               "id": 206,
               "name": "Angry Mom",
+              "type": "route",
               "grade": {
                 "grade": 2,
                 "sub-grade": -1
@@ -2858,6 +3130,7 @@
             {
               "id": 207,
               "name": "Hop on Grand-pop",
+              "type": "route",
               "grade": {
                 "grade": 2,
                 "sub-grade": -1
@@ -2871,6 +3144,7 @@
             {
               "id": 208,
               "name": "Angry Me-Maw",
+              "type": "route",
               "grade": {
                 "grade": 2
               },
@@ -2884,6 +3158,7 @@
             {
               "id": 209,
               "name": "Angry Grandma",
+              "type": "route",
               "grade": {
                 "grade": 7
               },
@@ -2900,10 +3175,12 @@
         {
           "id": 47,
           "name": "Ed's Cave",
+          "type": "boulder",
           "children": [
             {
               "id": 210,
               "name": "Ed's Cave",
+              "type": "route",
               "grade": {
                 "grade": 7
               },
@@ -2918,10 +3195,12 @@
         {
           "id": 48,
           "name": "Rabid Squirrel",
+          "type": "boulder",
           "children": [
             {
               "id": 211,
               "name": "Rabid Squirrel",
+              "type": "route",
               "grade": {
                 "grade": 1,
                 "sub-grade": 1
@@ -2938,10 +3217,12 @@
         {
           "id": 0,
           "name": "Azain Cave",
+          "type": "boulder",
           "children": [
             {
               "id": 0,
               "name": "Out of a Cave Azain",
+              "type": "route",
               "grade": {
                 "grade": 1
               },
@@ -2958,11 +3239,13 @@
         {
           "id": 0,
           "name": "Blubonic Plague",
+          "type": "boulder",
           "transcription-notes": "Not given ID, instead given \"%%\".",
           "children": [
             {
               "id": 0,
               "name": "Blubonic Plague",
+              "type": "route",
               "grade": {
                 "grade": 3
               },
@@ -2978,10 +3261,12 @@
         {
           "id": 0,
           "name": "Unknown",
+          "type": "boulder",
           "children": [
             {
               "id": 154,
               "name": "The All or Nothing Days",
+              "type": "route",
               "grade": {
                 "grade": -2
               },
@@ -2994,6 +3279,7 @@
             {
               "id": 155,
               "name": "Seams High",
+              "type": "route",
               "grade": {
                 "grade": -2
               },
@@ -3006,6 +3292,7 @@
             {
               "id": 156,
               "name": "Young Dumb and Full of Rum",
+              "type": "route",
               "grade": {
                 "grade": -2
               },
@@ -3022,6 +3309,7 @@
     },
     {
       "name": "Cracked Lump",
+      "type": "area",
       "description": [
         "While there is a minor parking lot opposite the MS 300 entry ramp, getting away from this hairpin turn at one of the larger more visible parking lots further up-road or meters back adjacent to the river is advised. It is not advised to jeopardize access to the Garden by parking at the Illegal Parking lot on MS 300. It is indeed convenient to Big Fred, Azain, and Angry Grandma. And, as a walk-in this access still retains value. Parking here is unreasonable for the distance saved versus the consequence of losing climbing access to the Garden's many areas. En route to this acess point you will walk by Weigh Stop and Illegal Parking Wall. At the top of the sharp turn making the Lower Garden Access is the highly visable Illegal Parking Boulders: On the Yellow Brick Road, Oz and Off To See the Wizard. From here its uphill for a stretch before the extremly obvious Cracked Lump."
       ],
@@ -3030,10 +3318,12 @@
         {
           "id": 49,
           "name": "Weigh Stop",
+          "type": "boulder",
           "children": [
             {
               "id": 212,
               "name": "Trucker Belly (Working Off The)",
+              "type": "route",
               "grade": {
                 "grade": -1
               },
@@ -3047,6 +3337,7 @@
             {
               "id": 213,
               "name": "CB Radio Warm-up",
+              "type": "route",
               "grade": {
                 "grade": -1
               },
@@ -3060,6 +3351,7 @@
             {
               "id": 214,
               "name": "Biscuits and Gravy",
+              "type": "route",
               "grade": {
                 "grade": -1
               },
@@ -3074,6 +3366,7 @@
             {
               "id": 215,
               "name": "Allann's Truck Stop",
+              "type": "route",
               "grade": {
                 "grade": -1
               },
@@ -3090,10 +3383,12 @@
         {
           "id": 50,
           "name": "No Free Parking",
+          "type": "boulder",
           "children": [
             {
               "id": 216,
               "name": "Not Yet Done",
+              "type": "route",
               "grade": {
                 "grade": -2
               },
@@ -3103,6 +3398,7 @@
             {
               "id": 217,
               "name": "Not Yet Done",
+              "type": "route",
               "grade": {
                 "grade": -2
               },
@@ -3112,6 +3408,7 @@
             {
               "id": 218,
               "name": "Not Yet Done",
+              "type": "route",
               "grade": {
                 "grade": -2
               },
@@ -3123,26 +3420,31 @@
         {
           "id": 51,
           "name": "On The Yellow Brick Road",
+          "type": "boulder",
           "transcription-notes": "No description or routes were provided, but a photo is available."
         },
         {
           "id": 52,
           "name": "Oz",
+          "type": "boulder",
           "transcription-notes": "No description or routes were provided, but a photo is available."
         },
         {
           "id": 51,
           "name": "Off To See The Wizard",
+          "type": "boulder",
           "transcription-notes": "No description or routes were provided, but a photo is available."
         },
         {
           "id": 54,
           "name": "Cracked Lump",
+          "type": "boulder",
           "description": "Not much taller than most boulders of the Garden, Cracked Lump presents a very big formation in terms of its width and girth. Its front facing slab offers easy climbing and two practice cracks. Walking to its mouth entrance the climber is faced with a large hallway, with steep rock on one side and a paralleling slab. Some choices bouldering problems are presenting in the hallway, and a single bolted line with visible top-anchor bolts can be seen from the road. A single uncharted boulder is tucked in behind the formation, hidden from the road until you have walked past the Cracked Lump formation. The forest behind and around the Cracked Lump may in fact yield more boulders. More areas await adventurers heading farther up MS 300 as well...",
           "children": [
             {
               "id": 219,
               "name": "Practice Crack",
+              "type": "route",
               "grade": {
                 "grade": 0
               },
@@ -3156,6 +3458,7 @@
             {
               "id": 220,
               "name": "Mouth",
+              "type": "route",
               "grade": {
                 "grade": 2
               },
@@ -3165,6 +3468,7 @@
             {
               "id": 221,
               "name": "Mouth Arête",
+              "type": "route",
               "grade": {
                 "grade": 1,
                 "sub-grade": 2
@@ -3179,6 +3483,7 @@
             {
               "id": 222,
               "name": "Cracked Lump Crack",
+              "type": "route",
               "grade": {
                 "grade": 1,
                 "sub-grade": 1
@@ -3194,6 +3499,7 @@
             {
               "id": 223,
               "name": "Cracked Lump Project",
+              "type": "route",
               "grade": {
                 "grade": -2
               },
@@ -3207,6 +3513,7 @@
             {
               "id": 224,
               "name": "2nd Cracked Lump Project",
+              "type": "route",
               "grade": {
                 "grade": -2
               },
@@ -3221,6 +3528,7 @@
             {
               "id": 225,
               "name": "Mental Jewelry",
+              "type": "route",
               "grade": {
                 "grade": -2
               },
@@ -3236,6 +3544,7 @@
             {
               "id": 226,
               "name": "Back Against A Wall",
+              "type": "route",
               "grade": {
                 "grade": 1
               },
@@ -3248,6 +3557,7 @@
             {
               "id": 227,
               "name": "In the Crack",
+              "type": "route",
               "grade": {
                 "grade": 2
               },
@@ -3261,6 +3571,7 @@
             {
               "id": 228,
               "name": "Cracked Lump Stem",
+              "type": "route",
               "grade": {
                 "grade": 2,
                 "sub-grade": -1
@@ -3271,6 +3582,7 @@
             {
               "id": 229,
               "name": "Finger Trap",
+              "type": "route",
               "grade": {
                 "grade": 1
               },
@@ -3284,6 +3596,7 @@
         },
         {
           "id": 0,
+          "type": "boulder",
           "name": "No Parking Lot Wall",
           "transcription-notes": "No description or routes were provided, but a photo is available."
         }
@@ -3291,6 +3604,7 @@
     },
     {
       "name": "Middle Garden",
+      "type": "area",
       "description": [
         "Making your way to the Middle Garden you will be passing the parking lot Mile point 3.08, passing MS 210 (access road for Upper Garden) and parking at Mile point lot 3.3 or 3.4. Parking lot at 3.4 is not ideal, as it follows a sharp hair-turn, and is much smaller and less visible to on-coming logging trucks. The lot at mile 3.3 is larger, allows more space between the lot and the road and is the same walk length to Prince Alber and the entrance to the Middle Garden. Whether walking or driving, the head of Prince ALbert pokes up through the trees, with the Middle Garden Cliff-band looming over. Hop the roads ditch and scramble a hillside access in proximity to Prince ALber. A minor trail system presents around Prince ALber, but does not maintain or connect to other boulders of the Middle Garden. The Middle requires bushwhacking and in some cases boulder prep. Some boulders show signs of being climbed historically, but this area does not see the re-cleaning and coninuous climbing of the Lower Garden, or parts of the Upper."
       ],
@@ -3298,10 +3612,12 @@
         {
           "id": 55,
           "name": "Quality Slab",
+          "type": "boulder",
           "children": [
             {
               "id": 285,
               "name": "Hidden Slab",
+              "type": "route",
               "grade": {
                 "grade": 0
               },
@@ -3315,6 +3631,7 @@
             {
               "id": 286,
               "name": "Grumpy Gus",
+              "type": "route",
               "grade": {
                 "grade": 0
               },
@@ -3330,10 +3647,12 @@
         {
           "id": 56,
           "name": "Quality Arête",
+          "type": "boulder",
           "children": [
             {
               "id": 287,
               "name": "Wolf Like Me",
+              "type": "route",
               "grade": {
                 "grade": 2,
                 "sub-grade": -1
@@ -3346,6 +3665,7 @@
             {
               "id": 287,
               "name": "Y Control",
+              "type": "route",
               "grade": {
                 "grade": 0
               },
@@ -3360,10 +3680,12 @@
         {
           "id": 57,
           "name": "Prince Albert",
+          "type": "boulder",
           "children": [
             {
               "id": 230,
               "name": "Easy Up, Easy Down",
+              "type": "route",
               "grade": {
                 "grade": 1
               },
@@ -3378,6 +3700,7 @@
             {
               "id": 231,
               "name": "Jim Ward",
+              "type": "route",
               "grade": {
                 "grade": 5,
                 "sub-grade": 2
@@ -3391,6 +3714,7 @@
             {
               "id": 232,
               "name": "Doug Malloy",
+              "type": "route",
               "grade": {
                 "grade": 3,
                 "sub-grade": 2
@@ -3404,6 +3728,7 @@
             {
               "id": 233,
               "name": "Fakir Musafar",
+              "type": "route",
               "grade": {
                 "grade": 2,
                 "sub-grade": 2
@@ -3418,6 +3743,7 @@
             {
               "id": 234,
               "name": "Prince Alber Arête",
+              "type": "route",
               "grade": {
                 "grade": 2
               },
@@ -3430,6 +3756,7 @@
             {
               "id": 235,
               "name": "Down in A Hole",
+              "type": "route",
               "grade": {
                 "grade": 2
               },
@@ -3444,10 +3771,12 @@
         {
           "id": 58,
           "name": "Deforestation",
+          "type": "boulder",
           "children": [
             {
               "id": 236,
               "name": "Deforestation",
+              "type": "route",
               "grade": {
                 "grade": 2,
                 "sub-grade": 2
@@ -3462,6 +3791,7 @@
             {
               "id": 237,
               "name": "Screaming at A Wall",
+              "type": "route",
               "grade": {
                 "grade": 2,
                 "sub-grade": 1
@@ -3475,6 +3805,7 @@
             {
               "id": 238,
               "name": "Too Slab To Be This Hard",
+              "type": "route",
               "grade": {
                 "grade": 3
               },
@@ -3486,6 +3817,7 @@
             {
               "id": 239,
               "name": "Young Folks",
+              "type": "route",
               "grade": {
                 "grade": 3,
                 "sub-grade": 2
@@ -3499,6 +3831,7 @@
             {
               "id": 240,
               "name": "Deforestation Arête",
+              "type": "route",
               "grade": {
                 "grade": 1
               },
@@ -3513,10 +3846,12 @@
         {
           "id": 59,
           "name": "Drugstor Ya Yas!",
+          "type": "boulder",
           "children": [
             {
               "id": 241,
               "name": "Ya Ya Crack",
+              "type": "route",
               "grade": {
                 "grade": 3,
                 "sub-grade": -1
@@ -3530,6 +3865,7 @@
             {
               "id": 242,
               "name": "Ya Ya Steep Left",
+              "type": "route",
               "grade": {
                 "grade": 4,
                 "sub-grade": 2
@@ -3543,6 +3879,7 @@
             {
               "id": 243,
               "name": "Ya Ya Steep Right",
+              "type": "route",
               "grade": {
                 "grade": 6,
                 "sub-grade": 2
@@ -3556,6 +3893,7 @@
             {
               "id": 244,
               "name": "No Piece of Cake",
+              "type": "route",
               "grade": {
                 "grade": 3
               },
@@ -3565,6 +3903,7 @@
             {
               "id": 245,
               "name": "Ya Ya Warm-up",
+              "type": "route",
               "grade": {
                 "grade": 2,
                 "sub-grade": -1
@@ -3580,10 +3919,12 @@
         {
           "id": 60,
           "name": "Tortoise",
+          "type": "boulder",
           "children": [
             {
               "id": 246,
               "name": "Myrtle",
+              "type": "route",
               "grade": {
                 "grade": 2,
                 "sub-grade": -1
@@ -3597,6 +3938,7 @@
             {
               "id": 247,
               "name": "Terrapin Traverse",
+              "type": "route",
               "grade": {
                 "grade": 1,
                 "sub-grade": 1
@@ -3610,6 +3952,7 @@
             {
               "id": 248,
               "name": "Snapping Backside",
+              "type": "route",
               "grade": {
                 "grade": 1
               },
@@ -3624,10 +3967,12 @@
         {
           "id": 61,
           "name": "Jaws",
+          "type": "boulder",
           "children": [
             {
               "id": 249,
               "name": "Jaws",
+              "type": "route",
               "grade": {
                 "grade": 2,
                 "sub-grade": 2
@@ -3638,6 +3983,7 @@
             {
               "id": 250,
               "name": "Fresh Tuna",
+              "type": "route",
               "grade": {
                 "grade": 2,
                 "sub-grade": 2
@@ -3648,6 +3994,7 @@
             {
               "id": 251,
               "name": "Mackerel Stew",
+              "type": "route",
               "grade": {
                 "grade": 4
               },
@@ -3661,6 +4008,7 @@
             {
               "id": 252,
               "name": "Chopped Suey",
+              "type": "route",
               "grade": {
                 "grade": 1,
                 "sub-grade": 1
@@ -3674,6 +4022,7 @@
             {
               "id": 253,
               "name": "Ahi Slab",
+              "type": "route",
               "grade": {
                 "grade": 1
               },
@@ -3688,10 +4037,12 @@
         {
           "id": 62,
           "name": "Even on a Cloudy Day",
+          "type": "boulder",
           "children": [
             {
               "id": 254,
               "name": "Not Yet Done",
+              "type": "route",
               "grade": {
                 "grade": -2
               },
@@ -3705,10 +4056,12 @@
         {
           "id": 63,
           "name": "Untouched Steepness",
+          "type": "boulder",
           "children": [
             {
               "id": 255,
               "name": "Not Yet Done",
+              "type": "route",
               "grade": {
                 "grade": -2
               },
@@ -3722,10 +4075,12 @@
         {
           "id": 64,
           "name": "Lawnmower Man",
+          "type": "boulder",
           "children": [
             {
               "id": 256,
               "name": "Not Yet Done",
+              "type": "route",
               "grade": {
                 "grade": -2
               },
@@ -3737,6 +4092,7 @@
             {
               "id": 257,
               "name": "Not Yet Done",
+              "type": "route",
               "grade": {
                 "grade": -2
               },
@@ -3750,10 +4106,12 @@
         {
           "id": 65,
           "name": "What Lies Between",
+          "type": "boulder",
           "children": [
             {
               "id": 258,
               "name": "Not Yet Done",
+              "type": "route",
               "grade": {
                 "grade": -2
               },
@@ -3767,10 +4125,12 @@
         {
           "id": 66,
           "name": "Lumpy Drawers",
+          "type": "boulder",
           "children": [
             {
               "id": 259,
               "name": "Not Yet Done",
+              "type": "route",
               "grade": {
                 "grade": -2
               },
@@ -3784,11 +4144,13 @@
         {
           "id": 67,
           "name": "Quality High-ball",
+          "type": "boulder",
           "description": "An opportune boulder in an opportune setting, yet quality high-ball is rarely clean? The Middle Garden holds a ton of potential for new and old Gardeners alike.",
           "children": [
             {
               "id": 260,
               "name": "Gin and Tonic",
+              "type": "route",
               "grade": {
                 "grade": -2
               },
@@ -3802,6 +4164,7 @@
             {
               "id": 261,
               "name": "Rum and Cola",
+              "type": "route",
               "grade": {
                 "grade": -2
               },
@@ -3815,6 +4178,7 @@
             {
               "id": 262,
               "name": "Greyhound",
+              "type": "route",
               "grade": {
                 "grade": -2
               },
@@ -3828,6 +4192,7 @@
             {
               "id": 263,
               "name": "Sake Bomb",
+              "type": "route",
               "grade": {
                 "grade": -2
               },
@@ -3844,14 +4209,17 @@
     },
     {
       "name": "Below Middle Garden Cliffband",
+      "type": "area",
       "children": [
         {
           "id": 68,
           "name": "Chopped Liver",
+          "type": "boulder",
           "children": [
             {
               "id": 264,
               "name": "Chopped Liver Face",
+              "type": "route",
               "grade": {
                 "grade": -2
               },
@@ -3864,6 +4232,7 @@
             {
               "id": 265,
               "name": "Undercling Arête",
+              "type": "route",
               "grade": {
                 "grade": -2
               },
@@ -3878,10 +4247,12 @@
         {
           "id": 69,
           "name": "Grand",
+          "type": "boulder",
           "children": [
             {
               "id": 266,
               "name": "Grand",
+              "type": "route",
               "grade": {
                 "grade": 3,
                 "sub-grade": 1
@@ -3892,6 +4263,7 @@
             {
               "id": 267,
               "name": "Eva Julie",
+              "type": "route",
               "grade": {
                 "grade": 3
               },
@@ -3901,6 +4273,7 @@
             {
               "id": 268,
               "name": "No Easy Bail",
+              "type": "route",
               "grade": {
                 "grade": 2,
                 "sub-grade": 2
@@ -3911,6 +4284,7 @@
             {
               "id": 269,
               "name": "Sweet Pea's Grand Adventure",
+              "type": "route",
               "grade": {
                 "grade": 3
               },
@@ -3922,10 +4296,12 @@
         {
           "id": 70,
           "name": "Below Grand",
+          "type": "boulder",
           "children": [
             {
               "id": 270,
               "name": "Below Grand",
+              "type": "route",
               "grade": {
                 "grade": -2
               },
@@ -3939,10 +4315,12 @@
         {
           "id": 71,
           "name": "Jugs",
+          "type": "boulder",
           "children": [
             {
               "id": 271,
               "name": "Jugs",
+              "type": "route",
               "grade": {
                 "grade": 0
               },
@@ -3957,10 +4335,12 @@
         {
           "id": 72,
           "name": "Crystalline Mantle",
+          "type": "boulder",
           "children": [
             {
               "id": 272,
               "name": "Crystalline Mantle",
+              "type": "route",
               "grade": {
                 "grade": 1,
                 "sub-grade": 1
@@ -3977,10 +4357,12 @@
         {
           "id": 73,
           "name": "Lawnmower Warm-up",
+          "type": "boulder",
           "children": [
             {
               "id": 273,
               "name": "Lawnmower Warm-up",
+              "type": "route",
               "grade": {
                 "grade": 0
               },
@@ -3996,10 +4378,12 @@
         {
           "id": 74,
           "name": "Fuzzy Dice",
+          "type": "boulder",
           "children": [
             {
               "id": 274,
               "name": "Motorcade of Silence",
+              "type": "route",
               "grade": {
                 "grade": 0
               },
@@ -4013,6 +4397,7 @@
             {
               "id": 275,
               "name": "Prolonging the Scrub",
+              "type": "route",
               "grade": {
                 "grade": 1
               },
@@ -4027,10 +4412,12 @@
         {
           "id": 75,
           "name": "Red Scoop",
+          "type": "boulder",
           "children": [
             {
               "id": 276,
               "name": "Red Scoop",
+              "type": "route",
               "grade": {
                 "grade": 2
               },
@@ -4043,6 +4430,7 @@
             {
               "id": 277,
               "name": "Red Slab",
+              "type": "route",
               "grade": {
                 "grade": 1
               },
@@ -4055,6 +4443,7 @@
             {
               "id": 278,
               "name": "2nd Slab",
+              "type": "route",
               "grade": {
                 "grade": 0
               },
@@ -4070,10 +4459,12 @@
         {
           "id": 76,
           "name": "Hook",
+          "type": "boulder",
           "children": [
             {
               "id": 279,
               "name": "Hook",
+              "type": "route",
               "grade": {
                 "grade": 6,
                 "sub-grade": 2
@@ -4087,6 +4478,7 @@
             {
               "id": 280,
               "name": "Unknown",
+              "type": "route",
               "grade": {
                 "grade": -2
               },
@@ -4099,6 +4491,7 @@
             {
               "id": 281,
               "name": "Unknown",
+              "type": "route",
               "grade": {
                 "grade": -2
               },
@@ -4111,6 +4504,7 @@
             {
               "id": 282,
               "name": "Unknown",
+              "type": "route",
               "grade": {
                 "grade": -2
               },
@@ -4123,6 +4517,7 @@
             {
               "id": 283,
               "name": "Unknown",
+              "type": "route",
               "grade": {
                 "grade": -2
               },
@@ -4138,6 +4533,7 @@
     },
     {
       "name": "Upper Garden",
+      "type": "area",
       "description": [
         "The earliest parking lot at mile point 3.08 is the ideal starting point for the Upper Garden. The walk from the parking lot at mile point 3.3 is no shorter and a lot less opportune. Either lots require walking a short distance uphill on the logging road MS 210. A single switchback at the entry loops around the bottom of the Uppers. 100 or so feet after the road bends back to perpendicular with the road below a minor pullout on the right hand side, and a series of large cut stumps on both sides of the road indicate the start of trailheads to the right hand side. If you've travelled MS 210 to a fork in the road you've gone too far. Where this fork is roughly close to Peter Brink's Itchy Balls Boulder, but there is no access trail and the area between the road and boulder tends to stay marshy."
       ],
@@ -4146,13 +4542,16 @@
         {
           "id": 77,
           "name": "Scratch and Spliff",
+          "type": "boulder",
           "children": [
             {
               "name": "Traverse Side",
+              "type": "face",
               "children": [
                 {
                   "id": 289,
                   "name": "Scratch and Spliff Traverse",
+                  "type": "route",
                   "grade": {
                     "grade": 1,
                     "sub-grade": 1
@@ -4167,6 +4566,7 @@
                 {
                   "id": 290,
                   "name": "Scratch",
+                  "type": "route",
                   "grade": {
                     "grade": 3
                   },
@@ -4179,6 +4579,7 @@
                 {
                   "id": 291,
                   "name": "Spliff",
+                  "type": "route",
                   "grade": {
                     "grade": 4,
                     "sub-grade": 2
@@ -4192,6 +4593,7 @@
                 {
                   "id": 292,
                   "name": "Zig-Zag Papers",
+                  "type": "route",
                   "grade": {
                     "grade": 1,
                     "sub-grade": 1
@@ -4206,6 +4608,7 @@
                 {
                   "id": 293,
                   "name": "Roach Warm-up",
+                  "type": "route",
                   "grade": {
                     "grade": 0
                   },
@@ -4220,6 +4623,7 @@
                 {
                   "id": 294,
                   "name": "S and S Decent",
+                  "type": "route",
                   "grade": {
                     "grade": -1
                   },
@@ -4233,10 +4637,12 @@
             },
             {
               "name": "Danger Zone Side",
+              "type": "face",
               "children": [
                 {
                   "id": 295,
                   "name": "Stoned Age",
+                  "type": "route",
                   "grade": {
                     "grade": 2,
                     "sub-grade": -1
@@ -4249,6 +4655,7 @@
                 {
                   "id": 296,
                   "name": "Crunch and Groove",
+                  "type": "route",
                   "grade": {
                     "grade": 3
                   },
@@ -4258,6 +4665,7 @@
                 {
                   "id": 297,
                   "name": "Happy Camper",
+                  "type": "route",
                   "grade": {
                     "grade": 3
                   },
@@ -4271,10 +4679,12 @@
             },
             {
               "name": "Buddha's Belly",
+              "type": "face",
               "children": [
                 {
                   "id": 298,
                   "name": "Contrived Buddha",
+                  "type": "route",
                   "grade": {
                     "grade": 1
                   },
@@ -4288,6 +4698,7 @@
                 {
                   "id": 299,
                   "name": "White Elephant",
+                  "type": "route",
                   "grade": {
                     "grade": 3
                   },
@@ -4297,6 +4708,7 @@
                 {
                   "id": 300,
                   "name": "Anicca",
+                  "type": "route",
                   "grade": {
                     "grade": -2
                   },
@@ -4307,6 +4719,7 @@
                 {
                   "id": 301,
                   "name": "Dukkha",
+                  "type": "route",
                   "grade": {
                     "grade": 2,
                     "sub-grade": 1
@@ -4320,6 +4733,7 @@
                 {
                   "id": 302,
                   "name": "Buddha's Belly",
+                  "type": "route",
                   "grade": {
                     "grade": 4,
                     "sub-grade": 2
@@ -4334,6 +4748,7 @@
                 {
                   "id": 303,
                   "name": "Anattā",
+                  "type": "route",
                   "grade": {
                     "grade": 0,
                     "sub-grade": 1
@@ -4349,10 +4764,12 @@
             },
             {
               "name": "Whorf",
+              "type": "face",
               "children": [
                 {
                   "id": 304,
                   "name": "Whorf",
+                  "type": "route",
                   "grade": {
                     "grade": 3
                   },
@@ -4367,6 +4784,7 @@
                 {
                   "id": 305,
                   "name": "Klingon Off A Leash",
+                  "type": "route",
                   "grade": {
                     "grade": 3
                   },
@@ -4380,6 +4798,7 @@
                 {
                   "id": 306,
                   "name": "Harder Whorf",
+                  "type": "route",
                   "grade": {
                     "grade": -2
                   },
@@ -4397,10 +4816,12 @@
         {
           "id": 78,
           "name": "Armageddon Boulder",
+          "type": "boulder",
           "children": [
             {
               "id": 307,
               "name": "Ragnorök",
+              "type": "route",
               "grade": {
                 "grade": -2
               },
@@ -4409,6 +4830,7 @@
             {
               "id": 308,
               "name": "Apocolypse",
+              "type": "route",
               "grade": {
                 "grade": -2
               },
@@ -4417,6 +4839,7 @@
             {
               "id": 309,
               "name": "Smoke and Wine (Will Save)",
+              "type": "route",
               "grade": {
                 "grade": -2
               },
@@ -4429,6 +4852,7 @@
             {
               "id": 310,
               "name": "Last Caress",
+              "type": "route",
               "grade": {
                 "grade": -2
               },
@@ -4443,10 +4867,12 @@
         {
           "id": 79,
           "name": "Oak Sucks",
+          "type": "boulder",
           "children": [
             {
               "id": 311,
               "name": "Oak Sucks",
+              "type": "route",
               "grade": {
                 "grade": 2,
                 "sub-grade": 1
@@ -4462,6 +4888,7 @@
             {
               "id": 312,
               "name": "Toxicodendron diversilobum Aka \"Toxico\"",
+              "type": "route",
               "grade": {
                 "grade": 3
               },
@@ -4471,6 +4898,7 @@
             {
               "id": 313,
               "name": "East Coast Ivy",
+              "type": "route",
               "grade": {
                 "grade": 2,
                 "sub-grade": 1
@@ -4481,6 +4909,7 @@
             {
               "id": 314,
               "name": "Poison Oak Crack",
+              "type": "route",
               "grade": {
                 "grade": 1,
                 "sub-grade": 1
@@ -4496,6 +4925,7 @@
             {
               "id": 315,
               "name": "Pectin Treatment",
+              "type": "route",
               "grade": {
                 "grade": 1,
                 "sub-grade": 1
@@ -4508,10 +4938,12 @@
         {
           "id": 80,
           "name": "Baseball",
+          "type": "boulder",
           "children": [
             {
               "id": 316,
               "name": "Baseball",
+              "type": "route",
               "grade": {
                 "grade": 1
               },
@@ -4526,6 +4958,7 @@
             {
               "id": 317,
               "name": "Broken Bat, Broken Ball",
+              "type": "route",
               "grade": {
                 "grade": 1
               },
@@ -4535,6 +4968,7 @@
             {
               "id": 318,
               "name": "Bunt",
+              "type": "route",
               "grade": {
                 "grade": 0
               },
@@ -4544,6 +4978,7 @@
             {
               "id": 319,
               "name": "Hittin' All Bases",
+              "type": "route",
               "grade": {
                 "grade": 1,
                 "sub-grade": 1
@@ -4553,6 +4988,7 @@
             {
               "id": 320,
               "name": "In the Clearcut Homerun",
+              "type": "route",
               "grade": {
                 "grade": 1
               },
@@ -4565,6 +5001,7 @@
             {
               "id": 321,
               "name": "Garden Rule Double",
+              "type": "route",
               "grade": {
                 "grade": 0
               },
@@ -4578,10 +5015,12 @@
         {
           "id": 81,
           "name": "Pumpkin",
+          "type": "boulder",
           "children": [
             {
               "id": 322,
               "name": "Dee Andros Slab",
+              "type": "route",
               "grade": {
                 "grade": 0
               },
@@ -4593,6 +5032,7 @@
             {
               "id": 323,
               "name": "Terry Baker",
+              "type": "route",
               "grade": {
                 "grade": -2
               },
@@ -4604,6 +5044,7 @@
             {
               "id": 324,
               "name": "Giant Killers",
+              "type": "route",
               "grade": {
                 "grade": 4,
                 "sub-grade": 2
@@ -4620,10 +5061,12 @@
         {
           "id": 82,
           "name": "Pumkin Warm-Up",
+          "type": "boulder",
           "children": [
             {
               "id": 325,
               "name": "Pumpkin Warm-Up",
+              "type": "route",
               "grade": {
                 "grade": 0
               },
@@ -4638,10 +5081,12 @@
         {
           "id": 83,
           "name": "Of Redeeming Quality",
+          "type": "boulder",
           "children": [
             {
               "id": 326,
               "name": "Of Redeeming Quality",
+              "type": "route",
               "grade": {
                 "grade": -2
               },
@@ -4653,10 +5098,12 @@
         {
           "id": 84,
           "name": "The 2010 Project",
+          "type": "boulder",
           "children": [
             {
               "id": 327,
               "name": "The 2010 Project",
+              "type": "route",
               "grade": {
                 "grade": -2
               },
@@ -4670,10 +5117,12 @@
         {
           "id": 85,
           "name": "Clearcut High-ball",
+          "type": "boulder",
           "children": [
             {
               "id": 328,
               "name": "Clearcut High-ball",
+              "type": "route",
               "grade": {
                 "grade": 1
               },
@@ -4688,6 +5137,7 @@
             {
               "id": 329,
               "name": "Wet Bail",
+              "type": "route",
               "grade": {
                 "grade": 0,
                 "sub-grade": 1
@@ -4702,6 +5152,7 @@
             {
               "id": 330,
               "name": "Walked It (aka Gancho Walked it)",
+              "type": "route",
               "grade": {
                 "grade": 2
               },
@@ -4715,6 +5166,7 @@
             {
               "id": 331,
               "name": "Scratch",
+              "type": "route",
               "grade": {
                 "grade": 3
               },
@@ -4727,6 +5179,7 @@
             {
               "id": 332,
               "name": "Sniff",
+              "type": "route",
               "grade": {
                 "grade": 2
               },
@@ -4741,10 +5194,12 @@
         {
           "id": 86,
           "name": "Slavov Boulder",
+          "type": "boulder",
           "children": [
             {
               "id": 333,
               "name": "Slavov Left",
+              "type": "route",
               "grade": {
                 "grade": 6,
                 "sub-grade": 3
@@ -4755,6 +5210,7 @@
             {
               "id": 334,
               "name": "Slavov Problem",
+              "type": "route",
               "grade": {
                 "grade": 6,
                 "sub-grade": 3
@@ -4765,6 +5221,7 @@
             {
               "id": 335,
               "name": "Slavov Arête",
+              "type": "route",
               "grade": {
                 "grade": 4,
                 "sub-grade": 2
@@ -4777,6 +5234,7 @@
             {
               "id": 336,
               "name": "Squatty Slavov",
+              "type": "route",
               "grade": {
                 "grade": 2,
                 "sub-grade": 2
@@ -4790,6 +5248,7 @@
             {
               "id": 337,
               "name": "Backside Slavov",
+              "type": "route",
               "grade": {
                 "grade": 1
               },
@@ -4805,10 +5264,12 @@
         {
           "id": 87,
           "name": "Behind Gancho Boulder",
+          "type": "boulder",
           "children": [
             {
               "id": 338,
               "name": "Behind Gancho Project",
+              "type": "route",
               "grade": {
                 "grade": -2
               },
@@ -4822,10 +5283,12 @@
         {
           "id": 88,
           "name": "Los Tres Amigos",
+          "type": "boulder",
           "children": [
             {
               "id": 339,
               "name": "Lucky Day",
+              "type": "route",
               "grade": {
                 "grade": 3
               },
@@ -4835,6 +5298,7 @@
             {
               "id": 339,
               "name": "Lucky Day Stand",
+              "type": "route",
               "grade": {
                 "grade": 1
               },
@@ -4845,6 +5309,7 @@
             {
               "id": 340,
               "name": "El Guapo",
+              "type": "route",
               "grade": {
                 "grade": 2
               },
@@ -4854,6 +5319,7 @@
             {
               "id": 341,
               "name": "Dusty Bottoms",
+              "type": "route",
               "grade": {
                 "grade": 0
               },
@@ -4866,6 +5332,7 @@
             {
               "id": 342,
               "name": "Ned Nederlander",
+              "type": "route",
               "grade": {
                 "grade": 1,
                 "sub-grade": 1
@@ -4882,10 +5349,12 @@
         {
           "id": 89,
           "name": "Anvil",
+          "type": "boulder",
           "children": [
             {
               "id": 343,
               "name": "Acme",
+              "type": "route",
               "grade": {
                 "grade": 0
               },
@@ -4899,6 +5368,7 @@
             {
               "id": 344,
               "name": "Roadrunner",
+              "type": "route",
               "grade": {
                 "grade": 0
               },
@@ -4912,6 +5382,7 @@
             {
               "id": 345,
               "name": "Wile E.",
+              "type": "route",
               "grade": {
                 "grade": 1
               },
@@ -4926,10 +5397,12 @@
         {
           "id": 90,
           "name": "Short Stuff",
+          "type": "boulder",
           "children": [
             {
               "id": 346,
               "name": "Short Stuff Crack",
+              "type": "route",
               "grade": {
                 "grade": 0
               },
@@ -4945,6 +5418,7 @@
             {
               "id": 347,
               "name": "Short Stuff Don't Fall",
+              "type": "route",
               "grade": {
                 "grade": 0
               },
@@ -4960,10 +5434,12 @@
         {
           "id": 91,
           "name": "Mickey Mantle",
+          "type": "boulder",
           "children": [
             {
               "id": 348,
               "name": "Mickey Mantle",
+              "type": "route",
               "grade": {
                 "grade": 1,
                 "sub-grade": 1
@@ -4980,6 +5456,7 @@
             {
               "id": 349,
               "name": "Mickey Direct",
+              "type": "route",
               "grade": {
                 "grade": 1
               },
@@ -4993,10 +5470,12 @@
         {
           "id": 92,
           "name": "Warm-Up In The Sun",
+          "type": "boulder",
           "children": [
             {
               "id": 350,
               "name": "Pheonix Warm-Up",
+              "type": "route",
               "grade": {
                 "grade": -1
               },
@@ -5008,6 +5487,7 @@
             {
               "id": 351,
               "name": "Fenghuang",
+              "type": "route",
               "grade": {
                 "grade": 0
               },
@@ -5020,6 +5500,7 @@
             {
               "id": 352,
               "name": "Dionysiaca",
+              "type": "route",
               "grade": {
                 "grade": -1
               },
@@ -5033,6 +5514,7 @@
             {
               "id": 353,
               "name": "Agenor",
+              "type": "route",
               "grade": {
                 "grade": -1
               },
@@ -5048,10 +5530,12 @@
         {
           "id": 93,
           "name": "Eager Beaver",
+          "type": "boulder",
           "children": [
             {
               "id": 354,
               "name": "Ducks Suck",
+              "type": "route",
               "grade": {
                 "grade": 1,
                 "sub-grade": 1
@@ -5062,6 +5546,7 @@
             {
               "id": 355,
               "name": "Eager Beaver",
+              "type": "route",
               "grade": {
                 "grade": 1
               },
@@ -5074,6 +5559,7 @@
             {
               "id": 356,
               "name": "Dam Right, Beavers Gardened First",
+              "type": "route",
               "grade": {
                 "grade": 0
               },
@@ -5085,10 +5571,12 @@
         {
           "id": 94,
           "name": "Watch Me Dude",
+          "type": "boulder",
           "children": [
             {
               "id": 357,
               "name": "Watch Me Dude",
+              "type": "route",
               "grade": {
                 "grade": 2,
                 "sub-grade": 2
@@ -5103,6 +5591,7 @@
             {
               "id": 358,
               "name": "Che'",
+              "type": "route",
               "grade": {
                 "grade": 2
               },
@@ -5116,6 +5605,7 @@
             {
               "id": 359,
               "name": "Whipping Boy",
+              "type": "route",
               "grade": {
                 "grade": 2
               },
@@ -5125,6 +5615,7 @@
             {
               "id": 360,
               "name": "Never Finished (to lip)",
+              "type": "route",
               "grade": {
                 "grade": 1
               },
@@ -5139,6 +5630,7 @@
             {
               "id": 361,
               "name": "Warm-Up Cave",
+              "type": "route",
               "grade": {
                 "grade": 0
               },
@@ -5152,6 +5644,7 @@
             {
               "id": 362,
               "name": "Viper Room",
+              "type": "route",
               "grade": {
                 "grade": 2,
                 "sub-grade": 1
@@ -5167,6 +5660,7 @@
             {
               "id": 363,
               "name": "Velvet Rope",
+              "type": "route",
               "grade": {
                 "grade": 1
               },
@@ -5181,10 +5675,12 @@
         {
           "id": 95,
           "name": "No Holds Barred",
+          "type": "boulder",
           "children": [
             {
               "id": 364,
               "name": "People Climb That",
+              "type": "route",
               "grade": {
                 "grade": -2
               },
@@ -5194,6 +5690,7 @@
             {
               "id": 364,
               "name": "Projecto",
+              "type": "route",
               "grade": {
                 "grade": -2
               },
@@ -5208,10 +5705,12 @@
         {
           "id": 96,
           "name": "Crack Roof",
+          "type": "boulder",
           "children": [
             {
               "id": 366,
               "name": "Full Crack Roof",
+              "type": "route",
               "grade": {
                 "grade": 1
               },
@@ -5224,6 +5723,7 @@
             {
               "id": 367,
               "name": "Jump-In",
+              "type": "route",
               "grade": {
                 "grade": 0
               },
@@ -5237,10 +5737,12 @@
         {
           "id": 97,
           "name": "Sharpen Your Teeth",
+          "type": "boulder",
           "children": [
             {
               "id": 368,
               "name": "Sharpen Your Teeth",
+              "type": "route",
               "grade": {
                 "grade": 1
               },
@@ -5255,6 +5757,7 @@
             {
               "id": 369,
               "name": "Undercling Overbite",
+              "type": "route",
               "grade": {
                 "grade": 3
               },
@@ -5268,6 +5771,7 @@
             {
               "id": 370,
               "name": "Opposite Arête",
+              "type": "route",
               "grade": {
                 "grade": 1
               },
@@ -5282,10 +5786,12 @@
         {
           "id": 98,
           "name": "Hang and Slap",
+          "type": "boulder",
           "children": [
             {
               "id": 371,
               "name": "Hang and Slap",
+              "type": "route",
               "grade": {
                 "grade": 2
               },
@@ -5303,10 +5809,12 @@
         {
           "id": 99,
           "name": "Below Angular Staircase",
+          "type": "boulder",
           "children": [
             {
               "id": 372,
               "name": "Below Angular Staircase",
+              "type": "route",
               "grade": {
                 "grade": -2
               },
@@ -5317,10 +5825,12 @@
         {
           "id": 100,
           "name": "Angular Staircase",
+          "type": "boulder",
           "children": [
             {
               "id": 0,
               "name": "Angular Staircase",
+              "type": "route",
               "grade": {
                 "grade": 0
               },
@@ -5332,6 +5842,7 @@
             {
               "id": 0,
               "name": "Wet Weather Days",
+              "type": "route",
               "grade": {
                 "grade": 0
               },
@@ -5349,10 +5860,12 @@
         {
           "id": 101,
           "name": "No Hold Face",
+          "type": "boulder",
           "children": [
             {
               "id": 375,
               "name": "No Hold Face",
+              "type": "route",
               "grade": {
                 "grade": -2
               },
@@ -5363,10 +5876,12 @@
         {
           "id": 102,
           "name": "Sonya",
+          "type": "boulder",
           "children": [
             {
               "id": 376,
               "name": "Sonya",
+              "type": "route",
               "grade": {
                 "grade": 2
               },
@@ -5376,6 +5891,7 @@
             {
               "id": 377,
               "name": "Out Left Sonya",
+              "type": "route",
               "grade": {
                 "grade": 2,
                 "sub-grade": 1
@@ -5389,6 +5905,7 @@
             {
               "id": 378,
               "name": "Full Sonya",
+              "type": "route",
               "grade": {
                 "grade": 3
               },
@@ -5401,6 +5918,7 @@
             {
               "id": 379,
               "name": "Orion",
+              "type": "route",
               "grade": {
                 "grade": 2,
                 "sub-grade": 1
@@ -5410,6 +5928,7 @@
             {
               "id": 380,
               "name": "Sonya Slab",
+              "type": "route",
               "grade": {
                 "grade": 1
               },
@@ -5424,10 +5943,12 @@
         {
           "id": 103,
           "name": "Cracked Egg",
+          "type": "boulder",
           "children": [
             {
               "id": 381,
               "name": "Cracked Egg Roof Crack",
+              "type": "route",
               "grade": {
                 "grade": 1,
                 "sub-grade": 1
@@ -5442,6 +5963,7 @@
             {
               "id": 382,
               "name": "Cracked Egg Face",
+              "type": "route",
               "grade": {
                 "grade": 2
               },
@@ -5456,10 +5978,12 @@
         {
           "id": 104,
           "name": "Rollin' Out the Carpet",
+          "type": "boulder",
           "children": [
             {
               "id": 383,
               "name": "Rollin' Out the Carpet",
+              "type": "route",
               "grade": {
                 "grade": 1,
                 "sub-grade": 2
@@ -5475,10 +5999,12 @@
         {
           "id": 105,
           "name": "Nasghoul",
+          "type": "boulder",
           "children": [
             {
               "id": 384,
               "name": "Don't Fear the Reaper",
+              "type": "route",
               "grade": {
                 "grade": 2,
                 "sub-grade": 1
@@ -5493,6 +6019,7 @@
             {
               "id": 385,
               "name": "Hurt Locker",
+              "type": "route",
               "grade": {
                 "grade": 1
               },
@@ -5508,10 +6035,12 @@
         {
           "id": 106,
           "name": "Gandalf",
+          "type": "boulder",
           "children": [
             {
               "id": 386,
               "name": "Gimle",
+              "type": "route",
               "grade": {
                 "grade": 0,
                 "sub-grade": 1
@@ -5521,6 +6050,7 @@
             {
               "id": 387,
               "name": "Non-Crack",
+              "type": "route",
               "grade": {
                 "grade": 1
               },
@@ -5534,10 +6064,12 @@
         {
           "id": 107,
           "name": "Bilbo",
+          "type": "boulder",
           "children": [
             {
               "id": 388,
               "name": "Bilbo's Grand Traverse",
+              "type": "route",
               "grade": {
                 "grade": 1
               },
@@ -5550,6 +6082,7 @@
             {
               "id": 389,
               "name": "Bilbo's Project",
+              "type": "route",
               "grade": {
                 "grade": -2
               },
@@ -5562,6 +6095,7 @@
             {
               "id": 390,
               "name": "Hobbit Toss",
+              "type": "route",
               "grade": {
                 "grade": 0
               },
@@ -5578,10 +6112,12 @@
         {
           "id": 108,
           "name": "Pippen",
+          "type": "boulder",
           "children": [
             {
               "id": 391,
               "name": "Pippen",
+              "type": "route",
               "grade": {
                 "grade": -2
               },
@@ -5592,10 +6128,12 @@
         {
           "id": 109,
           "name": "Sauron",
+          "type": "boulder",
           "children": [
             {
               "id": 392,
               "name": "Eye of Sauron High-ball",
+              "type": "route",
               "grade": {
                 "grade": 1
               },
@@ -5609,6 +6147,7 @@
             {
               "id": 393,
               "name": "Maiar High-ball",
+              "type": "route",
               "grade": {
                 "grade": 0
               },
@@ -5625,10 +6164,12 @@
         {
           "id": 110,
           "name": "Grey Wizard",
+          "type": "boulder",
           "children": [
             {
               "id": 394,
               "name": "Gilbert Problem",
+              "type": "route",
               "grade": {
                 "grade": 1
               },
@@ -5641,6 +6182,7 @@
             {
               "id": 395,
               "name": "5.7 Crack",
+              "type": "route",
               "grade": {
                 "grade": 0
               },
@@ -5656,10 +6198,12 @@
         {
           "id": 111,
           "name": "Arrowhead",
+          "type": "boulder",
           "children": [
             {
               "id": 396,
               "name": "Chepenefa",
+              "type": "route",
               "grade": {
                 "grade": 1,
                 "sub-grade": 1
@@ -5672,6 +6216,7 @@
             {
               "id": 397,
               "name": "Broken Arrow",
+              "type": "route",
               "grade": {
                 "grade": 1
               },
@@ -5683,10 +6228,12 @@
         {
           "id": 112,
           "name": "Watchtower",
+          "type": "boulder",
           "children": [
             {
               "id": 398,
               "name": "Little Ben",
+              "type": "route",
               "grade": {
                 "grade": 0,
                 "sub-grade": 2
@@ -5699,10 +6246,12 @@
         {
           "id": 113,
           "name": "Awesome",
+          "type": "boulder",
           "children": [
             {
               "id": 399,
               "name": "Awesome",
+              "type": "route",
               "grade": {
                 "grade": 4,
                 "sub-grade": 2
@@ -5717,6 +6266,7 @@
             {
               "id": 400,
               "name": "Also Awesome",
+              "type": "route",
               "grade": {
                 "grade": 4,
                 "sub-grade": 2
@@ -5727,6 +6277,7 @@
             {
               "id": 401,
               "name": "Awesome Slab",
+              "type": "route",
               "grade": {
                 "grade": 2
               },
@@ -5739,6 +6290,7 @@
             {
               "id": 402,
               "name": "Awesome Project",
+              "type": "route",
               "grade": {
                 "grade": -2
               },
@@ -5753,13 +6305,16 @@
         {
           "id": 114,
           "name": "Peter Brink's Itchy Balls",
+          "type": "boulder",
           "children": [
             {
               "name": "Vert Wall",
+              "type": "face",
               "children": [
                 {
                   "id": 403,
                   "name": "Unnamed Line",
+                  "type": "route",
                   "grade": {
                     "grade": -2
                   },
@@ -5769,6 +6324,7 @@
                 {
                   "id": 404,
                   "name": "Unnamed Line",
+                  "type": "route",
                   "grade": {
                     "grade": -2
                   },
@@ -5778,6 +6334,7 @@
                 {
                   "id": 405,
                   "name": "Unnamed Line",
+                  "type": "route",
                   "grade": {
                     "grade": -2
                   },
@@ -5787,6 +6344,7 @@
                 {
                   "id": 406,
                   "name": "Unnamed Line",
+                  "type": "route",
                   "grade": {
                     "grade": -2
                   },
@@ -5796,6 +6354,7 @@
                 {
                   "id": 407,
                   "name": "Unnamed Line",
+                  "type": "route",
                   "grade": {
                     "grade": -2
                   },
@@ -5806,10 +6365,12 @@
             },
             {
               "name": "Front Cave",
+              "type": "face",
               "children": [
                 {
                   "id": 408,
                   "name": "Unnamed Line",
+                  "type": "route",
                   "grade": {
                     "grade": -2
                   },
@@ -5819,6 +6380,7 @@
                 {
                   "id": 409,
                   "name": "Unnamed Line",
+                  "type": "route",
                   "grade": {
                     "grade": -2
                   },
@@ -5828,6 +6390,7 @@
                 {
                   "id": 410,
                   "name": "Unnamed Line",
+                  "type": "route",
                   "grade": {
                     "grade": -2
                   },
@@ -5837,6 +6400,7 @@
                 {
                   "id": 411,
                   "name": "Unnamed Line",
+                  "type": "route",
                   "grade": {
                     "grade": -2
                   },
@@ -5846,6 +6410,7 @@
                 {
                   "id": 412,
                   "name": "Unnamed Line",
+                  "type": "route",
                   "grade": {
                     "grade": -2
                   },
@@ -5856,10 +6421,12 @@
             },
             {
               "name": "Back Cave",
+              "type": "face",
               "children": [
                 {
                   "id": 413,
                   "name": "Unnamed Line",
+                  "type": "route",
                   "grade": {
                     "grade": -2
                   },
@@ -5869,6 +6436,7 @@
                 {
                   "id": 414,
                   "name": "Unnamed Line",
+                  "type": "route",
                   "grade": {
                     "grade": -2
                   },
@@ -5878,6 +6446,7 @@
                 {
                   "id": 415,
                   "name": "Unnamed Line",
+                  "type": "route",
                   "grade": {
                     "grade": -2
                   },
@@ -5887,6 +6456,7 @@
                 {
                   "id": 416,
                   "name": "Unnamed Line",
+                  "type": "route",
                   "grade": {
                     "grade": -2
                   },
@@ -5900,11 +6470,13 @@
         {
           "id": 115,
           "name": "Peter Brink High-ball",
+          "type": "boulder",
           "transcription-notes": "No climbs were provided."
         },
         {
           "id": 116,
           "name": "Gem In The Woods",
+          "type": "boulder",
           "transcription-notes": "No climbs were provided."
         }
       ]

@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.1.0",
   "name": "Druid Stones",
   "author": "ire510",
   "date": "2011",
@@ -8,14 +8,16 @@
   "mountain-project": "https://www.mountainproject.com/area/121174866/druid-boulders",
   "children": [
     {
-      "id": 0,
+      "id": 1,
       "name": "Bouldering is Still Honest",
+      "type": "boulder",
       "description": "Bouldering is Still Honest is a roadside boulder splitting the distance between the two primary parking lots for the greatest concentration of Druid Stones. Opposite the road of Bouldering is Still Honest and downhill is three pillars: The Temptation Pillar, Major Tom Pillar and the Magical Mystery Pillar.",
       "transcription-notes": "Minor grammar error assumed and corrected.",
       "children": [
         {
           "id": 1,
           "name": "Bouldering is Still Honest",
+          "type": "route",
           "grade": {
             "grade": 1,
             "sub-grade": 1
@@ -36,6 +38,7 @@
           "alt-names": [
             "1.28"
           ],
+          "type": "route",
           "grade": {
             "grade": 2,
             "sub-grade": -1
@@ -53,6 +56,7 @@
         {
           "id": 3,
           "name": "Just Less Than Meaty",
+          "type": "route",
           "grade": {
             "grade": 1,
             "sub-grade": 1
@@ -70,6 +74,7 @@
         {
           "id": 4,
           "name": "Greenberry Warm-up",
+          "type": "route",
           "grade": {
             "grade": -1
           },
@@ -89,6 +94,7 @@
         {
           "id": 5,
           "name": "Bouldering Still Needs Warming Up",
+          "type": "route",
           "grade": {
             "grade": -1
           },
@@ -108,13 +114,15 @@
       ]
     },
     {
-      "id": 0,
+      "id": 2,
       "name": "Lumpy Britches",
+      "type": "boulder",
       "description": "Lumpy Britches is included as the second in the Druids line as a land-marker making your way to the primary group. Three VBs are available and Lumpy Britches makes a great kids boulder, the boulder is visible from the road. The current climbers scramble is over 150 feet east of Lumpy Britches, but the boulder is visible travelling the trail and if you were to head directly over the hill starting at Lumpy Britches you will still find yourself at the primary group, only walking tighter to the Satellite Tower as you breach the Western Spur Summit.",
       "children": [
         {
-          "id": 0,
-          "name": "Lumpy Britches 1",
+          "id": 131,
+          "name": "Lumpy Britches",
+          "type": "route",
           "grade": {
             "grade": -1
           },
@@ -125,8 +133,9 @@
           "transcription-notes": "Not included but mentioned. Added for searchability."
         },
         {
-          "id": 0,
-          "name": "Lumpy Britches 2",
+          "id": 132,
+          "name": "Very Lumpy Britches",
+          "type": "route",
           "grade": {
             "grade": -1
           },
@@ -137,8 +146,9 @@
           "transcription-notes": "Not included but mentioned. Added for searchability."
         },
         {
-          "id": 0,
-          "name": "Lumpy Britches 3",
+          "id": 133,
+          "name": "Extremely Lumpy Britches",
+          "type": "route",
           "grade": {
             "grade": -1
           },
@@ -151,8 +161,9 @@
       ]
     },
     {
-      "id": 0,
+      "id": 3,
       "name": "Rope De Dope",
+      "type": "boulder",
       "description": "Working your way to the goods Rope De Dope offers a warm-up, a kid manageable slab and one good sit-start Left Handed Looney.",
       "children": [
         {
@@ -161,6 +172,7 @@
           "alt-names": [
             "Float Like A Bee"
           ],
+          "type": "route",
           "grade": {
             "grade": -1
           },
@@ -179,6 +191,7 @@
         {
           "id": 7,
           "name": "Left Handed Looney",
+          "type": "route",
           "grade": {
             "grade": 1
           },
@@ -197,14 +210,16 @@
       ]
     },
     {
-      "id": 0,
+      "id": 4,
       "name": "Medusa Boulder",
+      "type": "boulder",
       "description": "Tucked behind Athena Boulder and close to Sublime, Medusa pairs with Rope De Dope for kid's problems and warm-ups.",
       "transcription-notes": "Minor grammar error assumed and corrected.",
       "children": [
         {
           "id": 8,
           "name": "Medusa's Mantle",
+          "type": "route",
           "grade": {
             "grade": -1
           },
@@ -224,6 +239,7 @@
         {
           "id": 9,
           "name": "Medusa's Haircut",
+          "type": "route",
           "grade": {
             "grade": -1
           },
@@ -243,12 +259,14 @@
       ]
     },
     {
-      "id": 0,
+      "id": 5,
       "name": "Athena Boulder",
+      "type": "boulder",
       "children": [
         {
           "id": 10,
           "name": "Athena's Lieback",
+          "type": "route",
           "grade": {
             "grade": 1
           },
@@ -265,6 +283,7 @@
         {
           "id": 11,
           "name": "Athena's Squat and Reach",
+          "type": "route",
           "grade": {
             "grade": 1
           },
@@ -284,6 +303,7 @@
         {
           "id": 12,
           "name": "Athena's Butt",
+          "type": "route",
           "grade": {
             "grade": 0,
             "sub-grade": 1
@@ -304,6 +324,7 @@
         {
           "id": 13,
           "name": "Athena's Tail End",
+          "type": "route",
           "grade": {
             "grade": -1
           },
@@ -322,12 +343,14 @@
       ]
     },
     {
-      "id": 0,
+      "id": 6,
       "name": "Sublime Boulder",
+      "type": "boulder",
       "children": [
         {
           "id": 14,
           "name": "Louie",
+          "type": "route",
           "grade": {
             "grade": 1,
             "sub-grade": 1
@@ -348,6 +371,7 @@
         {
           "id": 15,
           "name": "What Happened",
+          "type": "route",
           "grade": {
             "grade": 1,
             "sub-grade": 1
@@ -365,6 +389,7 @@
         {
           "id": 16,
           "name": "Smoke Two Joints",
+          "type": "route",
           "grade": {
             "grade": 1,
             "sub-grade": 2
@@ -382,6 +407,7 @@
         {
           "id": 17,
           "name": "Bradley Nowell's Ghost",
+          "type": "route",
           "grade": {
             "grade": -2
           },
@@ -394,6 +420,7 @@
         {
           "id": 18,
           "name": "Gasoline Alley",
+          "type": "route",
           "grade": {
             "grade": -1
           },
@@ -413,14 +440,16 @@
       ]
     },
     {
-      "id": 0,
+      "id": 7,
       "name": "Cobra Commander",
+      "type": "boulder",
       "description": "When the Druid Stones were discovered / rediscovered in recent years, the Cobra Commander was the starting point. The jaw-dropper, da business! Hosting high quality lines from sits to stands VB to V3+, and potential for a problem in the V<7 range, this boulder ranks in the Druids top bunch. CC's backside offers pocket and sloper intensive slab prablems while problems like B(e)aroness Wrestling, Major Bludd and Copperhead toe the line between steep and slab.",
       "transcription-notes": "Minor grammar error assumed and corrected.",
       "children": [
         {
           "id": 19,
           "name": "Destro Stand",
+          "type": "route",
           "grade": {
             "grade": 2
           },
@@ -434,6 +463,7 @@
         {
           "id": 19,
           "name": "Destro",
+          "type": "route",
           "grade": {
             "grade": 2
           },
@@ -454,6 +484,7 @@
         {
           "id": 20,
           "name": "CC Sit Project",
+          "type": "route",
           "grade": {
             "grade": -2
           },
@@ -466,6 +497,7 @@
         {
           "id": 21,
           "name": "Cobra Commander",
+          "type": "route",
           "grade": {
             "grade": 1
           },
@@ -484,6 +516,7 @@
         {
           "id": 22,
           "name": "Knowing Is Half the Battle",
+          "type": "route",
           "grade": {
             "grade": 3
           },
@@ -507,6 +540,7 @@
         {
           "id": 23,
           "name": "Storm Shadow",
+          "type": "route",
           "grade": {
             "grade": 3,
             "sub-grade": 1
@@ -528,6 +562,7 @@
         {
           "id": 24,
           "name": "Slither",
+          "type": "route",
           "grade": {
             "grade": 0
           },
@@ -547,6 +582,7 @@
         {
           "id": 25,
           "name": "Venamous Lip",
+          "type": "route",
           "grade": {
             "grade": 1,
             "sub-grade": 3
@@ -564,6 +600,7 @@
         {
           "id": 26,
           "name": "B(e)aroness Wrestling",
+          "type": "route",
           "grade": {
             "grade": 1,
             "sub-grade": 1
@@ -584,6 +621,7 @@
         {
           "id": 27,
           "name": "Major Bludd",
+          "type": "route",
           "grade": {
             "grade": 1
           },
@@ -600,6 +638,7 @@
         {
           "id": 28,
           "name": "Copperhead",
+          "type": "route",
           "grade": {
             "grade": 0
           },
@@ -619,6 +658,7 @@
         {
           "id": 29,
           "name": "Zartan",
+          "type": "route",
           "grade": {
             "grade": 0
           },
@@ -635,6 +675,7 @@
         {
           "id": 30,
           "name": "The Little Enemy",
+          "type": "route",
           "grade": {
             "grade": -1
           },
@@ -654,12 +695,14 @@
       ]
     },
     {
-      "id": 0,
+      "id": 8,
       "name": "Libra Slab",
+      "type": "boulder",
       "children": [
         {
           "id": 31,
           "name": "Thumbs Up",
+          "type": "route",
           "grade": {
             "grade": 0
           },
@@ -679,6 +722,7 @@
         {
           "id": 32,
           "name": "Libra Ridge",
+          "type": "route",
           "grade": {
             "grade": -1
           },
@@ -693,12 +737,14 @@
       ]
     },
     {
-      "id": 0,
+      "id": 9,
       "name": "Ole' Boulder",
+      "type": "boulder",
       "children": [
         {
           "id": 33,
           "name": "Ole', Ole', Ole', Ole'",
+          "type": "route",
           "grade": {
             "grade": 2
           },
@@ -715,6 +761,7 @@
         {
           "id": 34,
           "name": "Cyclone Pop-in",
+          "type": "route",
           "grade": {
             "grade": 2,
             "sub-grade": 2
@@ -732,6 +779,7 @@
         {
           "id": 35,
           "name": "Punk and Lindy",
+          "type": "route",
           "grade": {
             "grade": 1
           },
@@ -747,6 +795,7 @@
         {
           "id": 36,
           "name": "Cyclone Pop-in Direct",
+          "type": "route",
           "grade": {
             "grade": -1
           },
@@ -759,12 +808,14 @@
       ]
     },
     {
-      "id": 0,
+      "id": 10,
       "name": "The Norseman",
+      "type": "boulder",
       "children": [
         {
           "id": 37,
           "name": "Odin's Slope",
+          "type": "route",
           "grade": {
             "grade": 2
           },
@@ -784,6 +835,7 @@
         {
           "id": 38,
           "name": "Stairway to Valhalla",
+          "type": "route",
           "grade": {
             "grade": 0
           },
@@ -803,6 +855,7 @@
         {
           "id": 39,
           "name": "Thor's Crack",
+          "type": "route",
           "grade": {
             "grade": 0
           },
@@ -823,6 +876,7 @@
         {
           "id": 40,
           "name": "Loki's Lurch",
+          "type": "route",
           "grade": {
             "grade": 2
           },
@@ -845,6 +899,7 @@
         {
           "id": 41,
           "name": "Varshnar",
+          "type": "route",
           "grade": {
             "grade": 0
           },
@@ -860,6 +915,7 @@
         {
           "id": 42,
           "name": "Lucifer's Lean",
+          "type": "route",
           "grade": {
             "grade": 1
           },
@@ -879,6 +935,7 @@
         {
           "id": 43,
           "name": "Eric the Northman",
+          "type": "route",
           "grade": {
             "grade": 0
           },
@@ -897,12 +954,14 @@
       ]
     },
     {
-      "id": 0,
+      "id": 11,
       "name": "Tantric Boulder",
+      "type": "boulder",
       "children": [
         {
           "id": 44,
           "name": "Tantric Bouldering",
+          "type": "route",
           "grade": {
             "grade": 0
           },
@@ -919,6 +978,7 @@
         {
           "id": 45,
           "name": "Daddlin' a Druid",
+          "type": "route",
           "grade": {
             "grade": -1
           },
@@ -935,12 +995,14 @@
       ]
     },
     {
-      "id": 0,
+      "id": 12,
       "name": "Cult Boulder",
+      "type": "boulder",
       "children": [
         {
           "id": 46,
           "name": "Branch Davidian",
+          "type": "route",
           "grade": {
             "grade": 0
           },
@@ -957,6 +1019,7 @@
         {
           "id": 47,
           "name": "Jim Jones, The Reverend",
+          "type": "route",
           "grade": {
             "grade": 1
           },
@@ -975,6 +1038,7 @@
         {
           "id": 48,
           "name": "Jeffersonian Movement",
+          "type": "route",
           "grade": {
             "grade": 2
           },
@@ -992,6 +1056,7 @@
         {
           "id": 49,
           "name": "Brown Stain",
+          "type": "route",
           "grade": {
             "grade": -2
           },
@@ -1004,6 +1069,7 @@
         {
           "id": 50,
           "name": "Get Your White Nikes",
+          "type": "route",
           "grade": {
             "grade": 2
           },
@@ -1025,6 +1091,7 @@
         {
           "id": 51,
           "name": "Heaven's Gate",
+          "type": "route",
           "grade": {
             "grade": 0
           },
@@ -1044,12 +1111,14 @@
       ]
     },
     {
-      "id": 0,
+      "id": 13,
       "name": "Pistol Grip",
+      "type": "boulder",
       "children": [
         {
           "id": 52,
           "name": "Pistol Grip",
+          "type": "route",
           "grade": {
             "grade": 4
           },
@@ -1074,6 +1143,7 @@
         {
           "id": 53,
           "name": "Lock Stock and Two Smoking Barrels",
+          "type": "route",
           "grade": {
             "grade": -2
           },
@@ -1083,6 +1153,7 @@
         {
           "id": 54,
           "name": "Sharma Problem",
+          "type": "route",
           "grade": {
             "grade": -2
           },
@@ -1095,6 +1166,7 @@
         {
           "id": 55,
           "name": "Tymun's Campus Start",
+          "type": "route",
           "grade": {
             "grade": -2
           },
@@ -1111,6 +1183,7 @@
         {
           "id": 56,
           "name": "Raised Eyebrows",
+          "type": "route",
           "grade": {
             "grade": -2
           },
@@ -1122,6 +1195,7 @@
         {
           "id": 57,
           "name": "Hair Trigger",
+          "type": "route",
           "grade": {
             "grade": 1
           },
@@ -1138,6 +1212,7 @@
         {
           "id": 58,
           "name": "AwolnatioN",
+          "type": "route",
           "grade": {
             "grade": 1,
             "sub-grade": 1
@@ -1156,6 +1231,7 @@
         {
           "id": 59,
           "name": "Pistola Backside",
+          "type": "route",
           "grade": {
             "grade": 1,
             "sub-grade": 1
@@ -1177,6 +1253,7 @@
         {
           "id": 60,
           "name": "Pistola Arête",
+          "type": "route",
           "grade": {
             "grade": 2
           },
@@ -1197,6 +1274,7 @@
         {
           "id": 61,
           "name": "Third Base",
+          "type": "route",
           "grade": {
             "grade": 2
           },
@@ -1216,12 +1294,14 @@
       ]
     },
     {
-      "id": 0,
+      "id": 14,
       "name": "Archdruid",
+      "type": "boulder",
       "children": [
         {
           "id": 62,
           "name": "Archdruid",
+          "type": "route",
           "grade": {
             "grade": 2,
             "sub-grade": -1
@@ -1245,6 +1325,7 @@
         {
           "id": 63,
           "name": "Beekeeper",
+          "type": "route",
           "grade": {
             "grade": 2,
             "sub-grade": 2
@@ -1265,6 +1346,7 @@
         {
           "id": 64,
           "name": "Barbeque the Druid",
+          "type": "route",
           "grade": {
             "grade": 1,
             "sub-grade": 1
@@ -1286,11 +1368,12 @@
         {
           "id": 65,
           "name": "Mark Sandman's Ghost",
+          "type": "route",
           "grade": {
             "grade": 2,
             "sub-grade": -1
           },
-          "isEliminate": true,
+          "eliminate": true,
           "tags": [
             "eliminate"
           ],
@@ -1307,6 +1390,7 @@
         {
           "id": 66,
           "name": "Cure For Pain",
+          "type": "route",
           "grade": {
             "grade": 0,
             "sub-grade": 2
@@ -1324,6 +1408,7 @@
         {
           "id": 67,
           "name": "Crowley's Crack",
+          "type": "route",
           "grade": {
             "grade": -1
           },
@@ -1343,12 +1428,14 @@
       ]
     },
     {
-      "id": 0,
+      "id": 15,
       "name": "Mountaineer Boulder",
+      "type": "boulder",
       "children": [
         {
           "id": 68,
           "name": "Walk",
+          "type": "route",
           "grade": {
             "grade": -1
           },
@@ -1365,6 +1452,7 @@
         {
           "id": 69,
           "name": "Don't Run",
+          "type": "route",
           "grade": {
             "grade": -1
           },
@@ -1381,12 +1469,14 @@
       ]
     },
     {
-      "id": 0,
+      "id": 16,
       "name": "Guinness Boulder",
+      "type": "boulder",
       "children": [
         {
           "id": 70,
           "name": "Guinness Roof",
+          "type": "route",
           "grade": {
             "grade": 3
           },
@@ -1407,6 +1497,7 @@
         {
           "id": 71,
           "name": "Pints of Guinness Make You Strong",
+          "type": "route",
           "grade": {
             "grade": -1
           },
@@ -1423,6 +1514,7 @@
         {
           "id": 72,
           "name": "Not Done Yet",
+          "type": "route",
           "grade": {
             "grade": -2
           },
@@ -1435,6 +1527,7 @@
         {
           "id": 73,
           "name": "Not Done Yet",
+          "type": "route",
           "grade": {
             "grade": -2
           },
@@ -1447,6 +1540,7 @@
         {
           "id": 74,
           "name": "Not Done Yet",
+          "type": "route",
           "grade": {
             "grade": -2
           },
@@ -1459,6 +1553,7 @@
         {
           "id": 75,
           "name": "Not Done Yet",
+          "type": "route",
           "grade": {
             "grade": -2
           },
@@ -1471,12 +1566,14 @@
       ]
     },
     {
-      "id": 0,
+      "id": 17,
       "name": "Cavalier Eternal",
+      "type": "boulder",
       "children": [
         {
           "id": 76,
           "name": "Cavalier Eternal",
+          "type": "route",
           "grade": {
             "grade": 1
           },
@@ -1497,6 +1594,7 @@
         {
           "id": 77,
           "name": "Strength Beyond Strength",
+          "type": "route",
           "grade": {
             "grade": 2
           },
@@ -1517,6 +1615,7 @@
         {
           "id": 78,
           "name": "Pharm Phed Phish",
+          "type": "route",
           "grade": {
             "grade": 0
           },
@@ -1537,12 +1636,14 @@
       ]
     },
     {
-      "id": 0,
+      "id": 18,
       "name": "Mothership",
+      "type": "boulder",
       "children": [
         {
           "id": 79,
           "name": "Earth to Mothership Traverse",
+          "type": "route",
           "grade": {
             "grade": 2
           },
@@ -1568,6 +1669,7 @@
         {
           "id": 80,
           "name": "Mothership Direct",
+          "type": "route",
           "grade": {
             "grade": 1,
             "sub-grade": 2
@@ -1589,6 +1691,7 @@
         {
           "id": 81,
           "name": "Paranoid Android",
+          "type": "route",
           "grade": {
             "grade": 1,
             "sub-grade": 2
@@ -1607,6 +1710,7 @@
         {
           "id": 82,
           "name": "Beam Me Up Scotty",
+          "type": "route",
           "grade": {
             "grade": 2
           },
@@ -1631,6 +1735,7 @@
         {
           "id": 83,
           "name": "Fitter, Stronger, Happier Project",
+          "type": "route",
           "grade": {
             "grade": -2
           },
@@ -1643,12 +1748,14 @@
       ]
     },
     {
-      "id": 0,
+      "id": 19,
       "name": "Snakecharmer",
+      "type": "boulder",
       "children": [
         {
           "id": 84,
           "name": "Snakecharmer",
+          "type": "route",
           "grade": {
             "grade": -2
           },
@@ -1660,6 +1767,7 @@
         {
           "id": 85,
           "name": "Snake Under a Tree",
+          "type": "route",
           "grade": {
             "grade": -2
           },
@@ -1668,6 +1776,7 @@
         {
           "id": 86,
           "name": "Andrew's Arête",
+          "type": "route",
           "grade": {
             "grade": 1,
             "sub-grade": 2
@@ -1689,6 +1798,7 @@
         {
           "id": 87,
           "name": "Bring the Ruckus",
+          "type": "route",
           "grade": {
             "grade": 2
           },
@@ -1709,6 +1819,7 @@
         {
           "id": 88,
           "name": "Ruckus Ride",
+          "type": "route",
           "grade": {
             "grade": 1
           },
@@ -1725,6 +1836,7 @@
         {
           "id": 89,
           "name": "Ruckus Ramp",
+          "type": "route",
           "grade": {
             "grade": 0
           },
@@ -1744,8 +1856,9 @@
       ]
     },
     {
-      "id": 0,
+      "id": 20,
       "name": "Against Me!",
+      "type": "boulder",
       "children": [
         {
           "id": 90,
@@ -1753,6 +1866,7 @@
           "alt-names": [
             "Cliche' Guevera"
           ],
+          "type": "route",
           "grade": {
             "grade": 0
           },
@@ -1775,6 +1889,7 @@
           "alt-names": [
             "Baby, I'm an Anarchist"
           ],
+          "type": "route",
           "grade": {
             "grade": 0
           },
@@ -1794,12 +1909,14 @@
       ]
     },
     {
-      "id": 0,
+      "id": 21,
       "name": "Scotch on the Rocks",
+      "type": "boulder",
       "children": [
         {
           "id": 92,
           "name": "Not Done Yet",
+          "type": "route",
           "grade": {
             "grade": -2
           },
@@ -1812,6 +1929,7 @@
         {
           "id": 93,
           "name": "Not Done Yet",
+          "type": "route",
           "grade": {
             "grade": -2
           },
@@ -1824,6 +1942,7 @@
         {
           "id": 94,
           "name": "Not Done Yet",
+          "type": "route",
           "grade": {
             "grade": -2
           },
@@ -1836,12 +1955,14 @@
       ]
     },
     {
-      "id": 0,
+      "id": 22,
       "name": "Flogging Murphey's",
+      "type": "boulder",
       "children": [
         {
           "id": 95,
           "name": "Celtic Mating Ritual",
+          "type": "route",
           "grade": {
             "grade": 1
           },
@@ -1859,6 +1980,7 @@
         {
           "id": 96,
           "name": "Pissing on the Trinity",
+          "type": "route",
           "grade": {
             "grade": 2
           },
@@ -1872,6 +1994,7 @@
         {
           "id": 97,
           "name": "Quit Flogging Your Molly Warm-Up",
+          "type": "route",
           "grade": {
             "grade": 0
           },
@@ -1891,12 +2014,14 @@
       ]
     },
     {
-      "id": 0,
+      "id": 23,
       "name": "Sessions Boulder",
+      "type": "boulder",
       "children": [
         {
           "id": 98,
           "name": "Roots Man U V A Warm-up",
+          "type": "route",
           "grade": {
             "grade": 0
           },
@@ -1918,6 +2043,7 @@
         {
           "id": 99,
           "name": "Sessions, Lessons, Blessings",
+          "type": "route",
           "grade": {
             "grade": 1
           },
@@ -1937,6 +2063,7 @@
         {
           "id": 100,
           "name": "Firing These Things Called TNT",
+          "type": "route",
           "grade": {
             "grade": 1,
             "sub-grade": 1
@@ -1958,6 +2085,7 @@
         {
           "id": 101,
           "name": "Till the Elephant Comes",
+          "type": "route",
           "grade": {
             "grade": 2
           },
@@ -1977,6 +2105,7 @@
         {
           "id": 102,
           "name": "Snyder's Pocket",
+          "type": "route",
           "grade": {
             "grade": 2
           },
@@ -1998,6 +2127,7 @@
         {
           "id": 103,
           "name": "I Don't Want To Be (Sam) I Am",
+          "type": "route",
           "grade": {
             "grade": 2,
             "sub-grade": 1
@@ -2020,6 +2150,7 @@
         {
           "id": 104,
           "name": "In For a Penny, In For a Pound",
+          "type": "route",
           "grade": {
             "grade": 1
           },
@@ -2039,12 +2170,14 @@
       ]
     },
     {
-      "id": 0,
+      "id": 24,
       "name": "Bowling Ball",
+      "type": "boulder",
       "children": [
         {
           "id": 105,
           "name": "Bowling Ball",
+          "type": "route",
           "grade": {
             "grade": -1
           },
@@ -2066,12 +2199,14 @@
       ]
     },
     {
-      "id": 0,
+      "id": 25,
       "name": "Jim Anglin Memorial Boulder",
+      "type": "boulder",
       "children": [
         {
           "id": 106,
           "name": "Descent",
+          "type": "route",
           "grade": {
             "grade": -1
           },
@@ -2091,6 +2226,7 @@
         {
           "id": 107,
           "name": "Anglin Warm-up",
+          "type": "route",
           "grade": {
             "grade": -1
           },
@@ -2111,6 +2247,7 @@
         {
           "id": 108,
           "name": "Hooked Line and Sinker",
+          "type": "route",
           "grade": {
             "grade": 1
           },
@@ -2128,6 +2265,7 @@
         {
           "id": 109,
           "name": "Anglin Em In",
+          "type": "route",
           "grade": {
             "grade": 0,
             "sub-grade": 2
@@ -2148,6 +2286,7 @@
         {
           "id": 110,
           "name": "Dedication Dyno",
+          "type": "route",
           "grade": {
             "grade": 1
           },
@@ -2167,6 +2306,7 @@
         {
           "id": 111,
           "name": "Rooster Love",
+          "type": "route",
           "grade": {
             "grade": 1
           },
@@ -2186,6 +2326,7 @@
         {
           "id": 112,
           "name": "Loving 51",
+          "type": "route",
           "grade": {
             "grade": 1
           },
@@ -2202,12 +2343,14 @@
       ]
     },
     {
-      "id": 0,
+      "id": 26,
       "name": "Japhy Ryder",
+      "type": "boulder",
       "children": [
         {
           "id": 113,
           "name": "Sean Monahan",
+          "type": "route",
           "grade": {
             "grade": 1
           },
@@ -2221,6 +2364,7 @@
         {
           "id": 114,
           "name": "Dharma Bum",
+          "type": "route",
           "grade": {
             "grade": 1,
             "sub-grade": 1
@@ -2235,6 +2379,7 @@
         {
           "id": 115,
           "name": "Japhy Ryder",
+          "type": "route",
           "grade": {
             "grade": 2
           },
@@ -2252,6 +2397,7 @@
         {
           "id": 116,
           "name": "Japhy Direct",
+          "type": "route",
           "grade": {
             "grade": 1
           },
@@ -2265,26 +2411,30 @@
       ]
     },
     {
-      "id": 0,
+      "id": 27,
       "name": "Moby Dick",
+      "type": "boulder",
       "description": "While the moss was removed in 2011 from Moby Dick, no problems have been set as of August 2011. The above photo features the widest, largest slab expanse of the boulder. While this boulder shares its texture and look with Japhy Ryder, the small pebble crimps on Moby Dick have yet to yield lines of ascent, even on such a low angle. To the climber's right of the tree dividing the boulder, the angle turns to vertical and slightly overhanging for an aesthetic and hold prone arête on the boulder's right most flank. While stand starts on the uphill side have in fact been topped out, the true line of the boulder, both its right arête and left slab have not seen true scents of good pure lines.",
       "transcription-notes": "Edits accepted.  Minor grammar error assumed and corrected."
     },
     {
-      "id": 0,
+      "id": 28,
       "name": "The Wave",
+      "type": "boulder",
       "description": "Featuring the same highly textured, pebble riddled facade as Moby Dick and Japhy Ryder, The Wave suprisingly has not yielded ascents. A descent line, needed to finish the cleaning process, and a VB on the uphill flank has seen the only sends. A front face problem, steep on small holds is undone, moving away from Moby Dick and towards Low Tide, the climber's left flank of The Wave yields a bear-huge arête problem, also undone.",
       "transcription-notes": "Edits accepted.  Minor grammar error assumed and corrected."
     },
     {
-      "id": 0,
+      "id": 29,
       "name": "Low Tide",
+      "type": "boulder",
       "description": "Adjacent and to the west of The Wave is a short slab climbed in the winter of 2011 by the Trevathians, Kati and Wade. At the same time Wade climbed a VB on the backside of the Wave. Between Low Tide and Rivals, level on the hillside to Rivals, there exists some other small boulders. They have recieved the monikers Humpty Dumpty, Truck Dump and The Good, The Bad and The Ugly. These boulders are small, and are most useful indicators and markers in finding Rivals, The Wave and Moby Dick. On the topo for this guide The Bad and The Ugly are labeled.",
       "transcription-notes": "Edits accepted.  Minor grammar error assumed and corrected. Boulder labels are left out given that no boulders actually have IDs.",
       "children": [
         {
           "id": 117,
           "name": "Low Tide",
+          "type": "route",
           "grade": {
             "grade": -1
           },
@@ -2293,12 +2443,14 @@
       ]
     },
     {
-      "id": 0,
+      "id": 30,
       "name": "The Dirties",
+      "type": "boulder",
       "children": [
         {
           "id": 118,
           "name": "Dirty Diana",
+          "type": "route",
           "grade": {
             "grade": 2
           },
@@ -2320,6 +2472,7 @@
         {
           "id": 119,
           "name": "Dirty Arête Project",
+          "type": "route",
           "grade": {
             "grade": -2
           },
@@ -2334,6 +2487,7 @@
         {
           "id": 120,
           "name": "Wipe that Dirty Face",
+          "type": "route",
           "grade": {
             "grade": 0
           },
@@ -2351,12 +2505,14 @@
       ]
     },
     {
-      "id": 0,
+      "id": 31,
       "name": "Rivals Boulder",
+      "type": "boulder",
       "children": [
         {
           "id": 121,
           "name": "Auspicious Occasion Crack",
+          "type": "route",
           "grade": {
             "grade": 1
           },
@@ -2377,6 +2533,7 @@
         {
           "id": 122,
           "name": "Endless Quest to be Cool",
+          "type": "route",
           "grade": {
             "grade": 1
           },
@@ -2396,6 +2553,7 @@
         {
           "id": 123,
           "name": "Not Yet Done",
+          "type": "route",
           "grade": {
             "grade": -2
           },
@@ -2408,30 +2566,34 @@
       ]
     },
     {
-      "id": 0,
+      "id": 32,
       "name": "Major Tom Pillar",
+      "type": "boulder",
       "description": "Following a climber's trail out of Pillar Parking Lot zig-zagging north, avoiding a Temptation Pillar off-shoot trail heading north by north-east, Major Tom's top bloc and backside is minutes off the road. With the addition of new top bolts in 2012 on the northern most point two opportunites to rappel the route were presented. Below the summit a stance accessed from trail. The bolted anchors are just out of reach (stick clip) and a short leap away. A set of Chockstones at this stance also offers a top-roping or rappelling opportunity. Which anchors are best for drag is to be determined.",
       "transcription-notes": "Edits accepted. Minor grammar error assumed and corrected. Handwritting unclear and meaning is guessed. Was unable to read a section of writing.",
       "children": [
         {
-          "id": 0,
+          "id": 124,
           "name": "Ground Control to (Major Tom)",
+          "type": "route",
           "grade": {
             "grade": -2
           },
           "description": "Nightmare to transcribe, if you're looking for details on this roped route originally lead in 2009 (5.7), contact transcriber."
         },
         {
-          "id": 0,
+          "id": 125,
           "name": "Dionysus",
+          "type": "route",
           "grade": {
             "grade": -2
           },
           "description": "Nightmare to transcribe, if you're looking for details on this roped route originally lead in 2012 (5.7), contact transcriber."
         },
         {
-          "id": 0,
+          "id": 126,
           "name": "Solo",
+          "type": "route",
           "grade": {
             "grade": 0
           },
@@ -2440,36 +2602,41 @@
       ]
     },
     {
-      "id": 0,
+      "id": 33,
       "name": "Temptation Pillar",
+      "type": "boulder",
       "children": [
         {
-          "id": 0,
+          "id": 127,
           "name": "Leap of Faith",
+          "type": "route",
           "grade": {
             "grade": -2
           },
           "description": "Nightmare to transcribe, if you're looking for details on this roped route (5.7), contact transcriber."
         },
         {
-          "id": 0,
+          "id": 128,
           "name": "Not Yet Done",
+          "type": "route",
           "grade": {
             "grade": -2
           },
           "description": "Nightmare to transcribe, if you're looking for details on this roped route (5.9), contact transcriber."
         },
         {
-          "id": 0,
+          "id": 129,
           "name": "The Temptations of Two Marys",
+          "type": "route",
           "grade": {
             "grade": -2
           },
           "description": "Nightmare to transcribe, if you're looking for details on this roped route (5.7), contact transcriber."
         },
         {
-          "id": 0,
+          "id": 130,
           "name": "Tempting Fate",
+          "type": "route",
           "grade": {
             "grade": -2
           },
@@ -2483,20 +2650,23 @@
       ]
     },
     {
-      "id": 0,
+      "id": 34,
       "name": "Magical Mystery Pillar",
+      "type": "boulder",
       "description": "The lackluster non-summit block for the Magical Mystery Pillar can be decieving, for how much climbing can be found below.",
       "transcription-notes": "Edits accepted. Simply a depiction of the top of Magical Mystery Pillar vs. what lies beneath."
     },
     {
-      "id": 0,
+      "id": 35,
       "name": "Ranger Bob Boulder",
+      "type": "boulder",
       "description": "From the Pillar Parking Lot walking downhill to Major Tom, Ranger Bob is on the right hand side and it's top-out will become visable. If you scramble down to reach the base of Major Tom you will pass it's primary bouldering face. If you traverse east to the Temptation Pillar after starting the trail to Major Tom, you will see Ranger Bob en-route. The primary face line is split with a huge crack between boulders and ledge. Crus is in upper portion of the climb, unless top-roping, us extreme caution climbing this problem, it presents a high fall, and a steep down-hill drop-off on the landing. A very aesthetic line.",
       "transcription-notes": "Edits accepted. Minor grammar error assumed and corrected. Handwritting unclear and meaning is guessed. Was unable to read a section of writing."
     },
     {
-      "id": 0,
+      "id": 36,
       "name": "Unnamed Boulder",
+      "type": "boulder",
       "description": "This boulder is located as close to the car, as it is to the Pillars, splitting the walk to Major Tom. Distinctive sloper holds, and a sloped edge hand jug at torso height stood out. Minimal time has been spent cleaning and no time spent climbing this boulder as of February 2012.",
       "transcription-notes": "Edits accepted. Minor grammar error assumed and corrected. Handwritting unclear and meaning is guessed. Was unable to read a section of writing. Date updated based on assumed handwriting."
     }
