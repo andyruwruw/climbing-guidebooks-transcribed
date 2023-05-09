@@ -48,9 +48,9 @@ Feel free to submit pull requests or [submit an issue](https://github.com/andyru
 
 Guides are all transcribed to JSON containing objects with the following values. These objects are nested from `guide` => `area` => `boulder` => `boulder face` => `route`, excluding `boulder-face` when irrelevant or not provided by the author..
 
-Text sections are simply created like [Areas](#areas) with sub-sections nested. All relevant paragraphs are just listed in the `description`.
+Text sections are simply created like [Areas](#areas) with sub-sections nested. All relevant paragraphs are just listed in the `description`. Fields are ommited when no data is present, so beware referencing fields that are undefined. You'll never see `"eliminate": false,` because it is assumed false unless otherwise stated.
 
-If anything is added or changed, I'll track in in the [change log](./CHANGELOG.md) and update the version control in each guide edited. Fields are ommited when no data is present, so beware referencing fields that are undefined. You'll never see `"eliminate": false,` because it is assumed false unless otherwise stated.
+If anything is added or changed, I'll track in in the [change log](./CHANGELOG.md) and update the version control in each guide edited.
 
 - Object Schemas
   - [Guidebook](#guidebook)
