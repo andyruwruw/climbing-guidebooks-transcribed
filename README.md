@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/andyruwruw/climbing-guidebooks-transcribed/main/documentation/banner.jpg" width="600px" />
+  <img src="https://raw.githubusercontent.com/andyruwruw/climbing-guidebooks-transcribed/main/documentation/banner.png" width="600px" />
 </p>
 
 <h1 align="center">Climbing Guidebooks Transcribed</h1>

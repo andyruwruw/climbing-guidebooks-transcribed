@@ -1,5 +1,6 @@
 ## May 9, 2023
 
+- Schema added to README.
 - `v-.-.-` Carver Bouldering Guide by Jered Bernert and Spender Williams
   - Removed due to uncertainty of desire to have published.
   - [Forumn post on sharing guide (2022)](https://www.mountainproject.com/forum/topic/121906849/carver-bouldering-guidebook)
