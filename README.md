@@ -32,7 +32,7 @@ Feel free to submit pull requests or [submit an issue](https://github.com/andyru
   - Carver Bouldering Guide (2011?)
     - By Jered Bernert and Spender Williams
     - No contact with author (05/08/2023)
-    - Removed. No longer in print, but I believe there's uncertainty whether land owners want this guide public.
+    - Removed, see [change log](./CHANGLOG.md).
 - Willamette Valley
   - [Druid Stones](https://github.com/andyruwruw/climbing-guidebooks-transcribed/blob/main/oregon/willamette-valley/druid-stones.json) (2011?)
     - By ire510
