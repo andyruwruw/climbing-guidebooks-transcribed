@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/andyruwruw/climbing-guidebooks-transcribed/main/documentation/banner.png" width="600px" />
+  <img src="https://raw.githubusercontent.com/andyruwruw/climbing-guidebooks-transcribed/main/documentation/banner.png" width="800px" />
 </p>
 
 <h1 align="center">Climbing Guidebooks Transcribed</h1>
@@ -46,11 +46,28 @@ Feel free to submit pull requests or [submit an issue](https://github.com/andyru
 
 # Data Format
 
-Guides are all transcribed to JSON containing objects with the following values:
+Guides are all transcribed to JSON containing objects with the following values. These objects are nested from `guide` => `area` => `boulder` => `boulder face` => `route`, excluding `boulder-face` when irrelevant or not provided by the author..
 
-If anything is added or changed, I'll track in in the [change log](./CHANGELOG.md) and update the version control in each guide edited.
+Text sections are simply created like [Areas](#areas) with sub-sections nested. All relevant paragraphs are just listed in the `description`.
 
-## Guidebook
+If anything is added or changed, I'll track in in the [change log](./CHANGELOG.md) and update the version control in each guide edited. Fields are ommited when no data is present, so beware referencing fields that are undefined. You'll never see `"eliminate": false,` because it is assumed false unless otherwise stated.
+
+- Object Schemas
+  - [Guidebook](#guidebook)
+  - [Areas](#areas)
+  - [Boulders](#boulders)
+  - [Boulder Faces](#boulder-faces)
+  - [Routes](#routes)
+  - [Grade Object](#grade-object)
+  - [Ascent Object](#ascent-object)
+- Types
+  - [Tags](#tags)
+- Sample Code
+  - [Parsing Grades](#parsing-grades)
+
+# Guidebook
+
+Root object representing a transcribed guidebook.
 
 | Field            | Type     | Description                                          | Example                       |
 |------------------|----------|------------------------------------------------------|-------------------------------|
@@ -63,7 +80,9 @@ If anything is added or changed, I'll track in in the [change log](./CHANGELOG.m
 | mountain-project | `string` | Link to Mountain Project page for area if available. | `"https://www.mountainpr..."` |
 | children         | `Array`  | List of areas, boulders, categories that follow.     | `[...]`                       |
 
-## Areas
+# Areas
+
+General areas of boulders, typically named, but ommited if none are stated.
 
 | Field               | Type       | Description                                      | Example                  |
 |---------------------|------------|--------------------------------------------------|--------------------------|
@@ -75,7 +94,9 @@ If anything is added or changed, I'll track in in the [change log](./CHANGELOG.m
 | transcription-notes | `string`   | Notes and edits by transcriptor.                 | `"Abbreviations exp..."` |
 | children            | `Array`    | List of areas, boulders, categories that follow. | `[...]`                  |
 
-## Boulders
+# Boulders
+
+Boulders that contain routes (or sometimes none for some reason).
 
 | Field               | Type        | Description                                                           | Example                  |
 |---------------------|-------------|-----------------------------------------------------------------------|--------------------------|
@@ -87,7 +108,9 @@ If anything is added or changed, I'll track in in the [change log](./CHANGELOG.m
 | transcription-notes | `string`    | Notes and edits by transcriptor.                                      | `"Abbreviations exp..."` |
 | children            | `Array`     | List of boulder faces or routes.                                      | `[...]`                  |
 
-## Boulder Faces
+# Boulder Faces
+
+Faces on a boulder, sometimes boulders are separated into sections.
 
 | Field               | Type     | Description                                                           | Example                  |
 |---------------------|----------|-----------------------------------------------------------------------|--------------------------|
@@ -99,7 +122,9 @@ If anything is added or changed, I'll track in in the [change log](./CHANGELOG.m
 | transcription-notes | `string` | Notes and edits by transcriptor.                                      | `"Abbreviations exp..."` |
 | children            | `Array`  | List of boulder faces or routes.                                      | `[...]`                  |
 
-## Routes
+# Routes
+
+Routes graded or otherwise. In absense of a topo or description, they are still recorded.
 
 | Field               | Type           | Description                                                           | Example                  |
 |---------------------|----------------|-----------------------------------------------------------------------|--------------------------|
@@ -116,7 +141,7 @@ If anything is added or changed, I'll track in in the [change log](./CHANGELOG.m
 | eliminate           | `boolean`      | Whether this route is just an eliminate.                              | `true`                   |
 | transcription-notes | `string`       | Notes and edits by transcriptor.                                      | `"Abbreviations exp..."` |
 
-## Grade Object
+# Grade Object
 
 Grade objects are portrayed by two numbers:
 
@@ -129,6 +154,8 @@ The subgrade field is meant to fufill the role of adding greater customizability
 
 | Sub-Grade | Base Grade | Result   |
 |-----------|------------|----------|
+| 0         | -2         | V?       |
+| 0         | -1         | VB       |
 | -1        | 4          | V4-      |
 | 0         | 4          | V4       |
 | 1         | 4          | V4+      |
@@ -137,7 +164,7 @@ The subgrade field is meant to fufill the role of adding greater customizability
 
 These are all just values I ran into transcribing, so a subgrade was created for each.
 
-## Ascent Object
+# Ascent Object
 
 Ascent objects just keep track of name and date if available.
 
@@ -148,7 +175,7 @@ Ascent objects just keep track of name and date if available.
 
 There were times when the date wasn't provided, or was provided but only given a given month or the exact day. To best fit this the date is left as a string, as many of the dates in these transcriptions are.
 
-## Tags
+# Tags
 
 Tags were added based on the descriptions to add to searchability, not based on first hand knowledge.
 
@@ -194,3 +221,81 @@ The following values are used tags:
 - `view`: Author says the top has a nice view!
 - `warm-up`: Described as a quality warm-up.
 - `wet`: Described as commonly being wet.
+
+# Parsing Grades
+
+For those code savy, here's a quick function to take **V-scale grade strings** and transform them into the [Grade Object](#grade-object) described above in `Typescript`. If anyone wants to take the time to simplify it, please do.
+
+I haven't needed to process the triplets (`"V1,V2,V3"`) so this doesn't include `sub-grade` `3`.
+
+```
+/**
+ * Selector for unknown grades.
+ */
+export const GRADE_UNKNOWN = /.*V\?.*/g;
+
+/**
+ * Selector for grades spanning 2 V-scale grades.
+ */
+export const GRADE_IN_BETWEEN = /.*V([B0-9]+)\/([0-9]+).*/;
+
+/**
+ * Selector for grades.
+ */
+export const GRADE_PARSER = /.*V([B0-9]+)([+-]*).*/;
+
+/**
+ * Parses a grade from string.
+ *
+ * @param {string} text Grade string.
+ */
+export const parseStringGrade = (text: string): GradeOpinion => {
+  if (GRADE_UNKNOWN.test(text)) {
+    return {
+      grade: -2,
+    };
+  }
+
+  if (GRADE_IN_BETWEEN.test(text)) {
+    const [
+      ,
+      lower
+    ] = text.match(GRADE_IN_BETWEEN) as string[];
+
+    return {
+      grade: parseInt(lower, 10),
+      subGrade: 2,
+    };
+  }
+
+  if (GRADE_PARSER.test(text)) {
+    const [
+      ,
+      grade,
+      subGrade,
+    ] = text.match(GRADE_PARSER) as string[];
+
+    if (subGrade && subGrade === '-') {
+      return {
+        grade: parseInt(grade, 10),
+        subGrade: -1,
+      };
+    }
+
+    if (subGrade && subGrade === '+') {
+      return {
+        grade: parseInt(grade, 10),
+        subGrade: 1,
+      };
+    }
+
+    return {
+      grade: parseInt(grade, 10),
+    };
+  }
+
+  return {
+    grade: -2,
+  };
+}
+```
