@@ -193,6 +193,7 @@ The following values are used tags:
 - `cave`: Described as involving a cave. Shallow caves are not included.
 - `chimney`: Described as containing a chimney.
 - `classic`: Author ommited stars, but described some as area classics.
+- `contrived`: A contrived route.
 - `crack`: Described as containing a crack as a used feature.
 - `crimps`: Described as containing used crimps.
 - `down-climb`: Described as mostly being the down-climb route for the boulder.
@@ -200,6 +201,7 @@ The following values are used tags:
 - `dyno`: Described as containing a yeet.
 - `eliminate`: An eliminate of another route.
 - `high-ball`: Described as high-ball.
+- `jugs`: There be jugs.
 - `kid-friendly`: At your own risk I suppose, author described as kid-friendly.
 - `mantle`: Described containing a mantle.
 - `mystery`: Author didn't provide enough details so the route is a mystery.

@@ -1,0 +1,1049 @@
+{
+  "version": "1.0.0",
+  "name": "Garden Area Bouldering",
+  "author": "Cooper Doe",
+  "date": "2019",
+  "transcriptor": "Andrew Young",
+  "transcribed": "05/2023",
+  "type": "guidebook",
+  "mountain-project": "https://www.mountainproject.com/area/105818193/the-garden",
+  "rating-max": 4,
+  "children": [
+    {
+      "name": "Quartzville Bouldering",
+      "type": "section",
+      "transcription-notes": "General overview section.",
+      "children": [
+        {
+          "name": "Quality",
+          "type": "section",
+          "description": [
+            "4 Stars: Worth seeking out. Not only good climbs compared to others in the area, but would considered classic in almost any area.",
+            "3 Stars: Very fun, worth climbing, but generally lacking one of the qualities of a truly classic boulder (height, purity, etc).",
+            "2 Stars: Not bad, but lacking quality in several ways (again, could be height, purity, comfort, landing, etc).",
+            "1 Star: Probably not that fun to climb, maybe has some redeeming quality to it, not always though."
+          ],
+          "transcription-notes": "List with icons transcribed by verbalizing icons and simply providing as separate paragraphs."
+        },
+        {
+          "name": "Ethics",
+          "type": "section",
+          "description": "This entire area might be on logging land, but their prsence in the area is very low, and there have not been access issues as of yet. Certain things have been known to make the logging truckers angry, such as parking up the first road (to Armageddon). Please park on the highway to avoid confrontations and possible area closures."
+        },
+        {
+          "name": "Disclaimer",
+          "type": "section",
+          "description": "This is a super informal guide, so the names and grades and star ratings are not universal, and even the paths that routes follow are based only on word-of-mouth and personal preference. Star ratings, especially in Garden Proper, are often skewed by the moss coverage at any given time. Don't get mad if your favorite problem only gets 1 star because whoever put it up never bothered to fully clean it."
+        },
+        {
+          "name": "Directions",
+          "type": "section",
+          "description": "In genral, this area is located off of Quartzville Road, which is found by following highway 20 east from Sweet Home. Quartzville Rd. is an obvious left turn. Follow Quartzville for 3.2 miles to reach the road to Armageddon, 3.4 for the Garden Proper. To reach the River Zone, park at the pullout 0.1 miles past the road to Garden Proper. More detailed directions can be found on each area page.",
+          "transcription-notes": "Added a leading 0 to decimal distance."
+        }
+      ]
+    },
+    {
+      "name": "Garden Proper",
+      "type": "area",
+      "description": "Garden Proper is the largest and most dense sector off of Quartzville. It is also the oldest and most heavily developed. However the climbs in this zone moss over rapidly, unless cleaned properly (which is rare). Good luck!",
+      "transcription-notes": "Disregarded paragraph in reference to map.",
+      "children": [
+        {
+          "id": 1,
+          "name": "Toilet Bowl",
+          "type": "boulder",
+          "children": [
+            {
+              "id": 1,
+              "name": "Toilet Bowl",
+              "type": "route",
+              "grade": {
+                "grade": 0
+              },
+              "rating": {
+                "stars": 2
+              },
+              "tags": [
+                "jugs",
+                "slopers"
+              ],
+              "description": "Start at chest height and climb up on jugs to nice slopers at the lip."          
+            },
+            {
+              "id": 2,
+              "name": "Scrubbing Bubbles",
+              "type": "route",
+              "grade": {
+                "grade": 1
+              },
+              "rating": {
+                "stars": 1
+              },
+              "tags": [
+                "contrived"
+              ],
+              "description": "Same start as Toilet Bowl, but move left to top out. If you squint this almost looks like an independent line!",
+              "transcription-notes": "Route ID replaced with route name."             
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Bitchin' Corners",
+          "type": "boulder",
+          "children": [
+            {
+              "id": 3,
+              "name": "Left Corner",
+              "type": "route",
+              "grade": {
+                "grade": 2
+              },
+              "rating": {
+                "stars": 1
+              },
+              "tags": [
+                "short"
+              ],
+              "description": "Stand start and climb to a quick top out. Grade unconfirmed, could easily be V6."            
+            },
+            {
+              "id": 4,
+              "name": "Bitchin' Corners",
+              "type": "route",
+              "grade": {
+                "grade": 2
+              },
+              "rating": {
+                "stars": 2
+              },
+              "tags": [
+                "pinches"
+              ],
+              "description": "Sit start with a pinch and an edge. Climb up and then back left to top out."
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Boys in the Woods",
+          "type": "boulder",
+          "children": [
+            {
+              "id": 5,
+              "name": "Ice Cube's Jerry Curl",
+              "type": "route",
+              "grade": {
+                "grade": 6
+              },
+              "rating": {
+                "stars": 3
+              },
+              "tags": [
+                "slopers",
+                "crimps"
+              ],
+              "description": "Start on the lowest sloping rail and climb up through crimps to a slopey top out.",                
+            },
+            {
+              "id": 6,
+              "name": "Cuba Gooding",
+              "type": "route",
+              "grade": {
+                "grade": 7
+              },
+              "rating": {
+                "stars": 2
+              },
+              "tags": [
+                "traverse",
+                "slopers",
+                "crimps",
+                "contrived"
+              ],
+              "description": "Start as for Boys in the Woods, but traverse right into Ice Cube's Jerry Curl.",
+              "transcription-notes": "Route ID replaced with route name. Route IDs are for different boulder, assuming off topo."                  
+            },
+            {
+              "id": 7,
+              "name": "Boys in the Woods",
+              "type": "route",
+              "grade": {
+                "grade": 4
+              },
+              "rating": {
+                "stars": 1
+              },
+              "tags": [
+                "slopers",
+                "overhung"
+              ],
+              "description": "Start low on a sloper under the overhang, and top out directly on the left side of the bowl.",               
+            },
+            {
+              "id": 8,
+              "name": "Boys in the Woods Left",
+              "type": "route",
+              "grade": {
+                "grade": 5
+              },
+              "rating": {
+                "stars": 2
+              },
+              "tags": [
+                "traverse",
+                "contrived"
+              ],
+              "description": "Start as for Boys in the Woods, but instead of topping out directly, traverse the lip for 10 feet to top out at the apex of the boulder.",
+              "transcription-notes": "Route ID replaced with route name."                  
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "3-Star Ledge",
+          "type": "boulder",
+          "children": [
+            {
+              "id": 9,
+              "name": "3-Star Ledge",
+              "type": "route",
+              "grade": {
+                "grade": 3
+              },
+              "rating": {
+                "stars": 1
+              },
+              "description": "Sit start and climb through the large ledge. Legend says the Oregon climbing gods once fit 3 lines and a project onto this boulder!"        
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "The Tonsil",
+          "type": "boulder",
+          "children": [
+            {
+              "id": 10,
+              "name": "The Tonsil",
+              "type": "route",
+              "grade": {
+                "grade": 4
+              },
+              "rating": {
+                "stars": 2
+              },
+              "tags": [
+                "compression"
+              ],
+              "description": "Start with feet on the lower block. Climb up and right through compression.",           
+            },
+            {
+              "id": 11,
+              "name": "Tongue Depressor",
+              "type": "route",
+              "grade": {
+                "grade": 3
+              },
+              "rating": {
+                "stars": 1
+              },
+              "tags": [
+                "contrived"
+              ],
+              "description": "Start as for The Tonsil, but move left to better holds. A fun nickname for this is \"contrived\"!",
+              "transcription-notes": "Route ID replaced with route name."                  
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "All Sorts of Ease",
+          "type": "boulder",
+          "children": [
+            {
+              "id": 12,
+              "name": "Walking the Dog",
+              "type": "route",
+              "grade": {
+                "grade": 0
+              },
+              "rating": {
+                "stars": 1
+              },
+              "tags": [
+                "slab",
+                "short"
+              ],
+              "description": "Stand start and climb the short slab. Almost always covered in moss."               
+            },
+            {
+              "id": 13,
+              "name": "All Sorts of Ease",
+              "type": "route",
+              "grade": {
+                "grade": 1
+              },
+              "rating": {
+                "stars": 2
+              },
+              "tags": [
+                "slab",
+                "bad-landing"
+              ],
+              "description": "Stand start right of Walking the Dog and climb over the jumbled landing. Less mossy than its companion climb.",
+              "transcription-notes": "Route ID replaced with route name."               
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "name": "Meth Lab Boulder",
+          "type": "boulder",
+          "children": [
+            {
+              "id": 14,
+              "name": "Action Directe Project",
+              "type": "route",
+              "grade": {
+                "grade": -2
+              },
+              "tags": [
+                "high-ball",
+                "steep",
+                "bad-landing"
+              ],
+              "description": "On the steep front face of the Meth Lab bolder is an unbolted sport route. Someone has it chalked and clearly intends to boulder it. Call 911 in advance?"               
+            },
+            {
+              "id": 15,
+              "name": "Highball Project",
+              "type": "route",
+              "grade": {
+                "grade": -2
+              },
+              "tags": [
+                "high-ball",
+                "crack",
+                "bad-landing"
+              ],
+              "description": "Start on jugs in the crack and climb up and left through progressively worse holds to a scary crux and easy top out."
+            },
+            {
+              "id": 16,
+              "name": "Leave it to Jesus",
+              "type": "route",
+              "grade": {
+                "grade": 3
+              },
+              "rating": {
+                "stars": 4
+              },
+              "description": "Stand start on good blocky edges and do a few powerful moves to the lip. Packs a punch and is one of the best at the grade in the Garden"
+            },
+            {
+              "id": 16,
+              "name": "Leave it to Jesus SDS",
+              "type": "route",
+              "grade": {
+                "grade": 8
+              },
+              "rating": {
+                "stars": 2
+              },
+              "variant": true,
+              "description": "Sit start bunched up on decent incuts down and left of Highball Project. Pull a few hard moves into the start holds and climb it.",
+              "transcription-notes": "Route ID replaced with route name."                  
+            },
+            {
+              "id": 17,
+              "name": "Smackdown",
+              "type": "route",
+              "grade": {
+                "grade": 8
+              },
+              "rating": {
+                "stars": 3
+              },
+              "tags": [
+                "arête"
+              ],
+              "description": "Start sitting low, left hand on the actual arête of the boulder. Move up and right into the stand."
+            },
+            {
+              "id": 17,
+              "name": "Smackdown Stand",
+              "type": "route",
+              "grade": {
+                "grade": 6
+              },
+              "rating": {
+                "stars": 2
+              },
+              "variant": true,
+              "description": "Start on good right facing jugs at waist height and climb up the rail to edges and the lip. Underappreciated."                
+            },
+            {
+              "id": 18,
+              "name": "Heisenberg",
+              "type": "route",
+              "grade": {
+                "grade": 9
+              },
+              "rating": {
+                "stars": 3
+              },
+              "tags": [
+                "crimps",
+                "slopers",
+                "contrived"
+              ],
+              "description": "Start sitting on opposing edges and climb up and left through poor crimps and slopers. Very good."               
+            },
+            {
+              "id": 19,
+              "name": "Leary's Lunge",
+              "type": "route",
+              "grade": {
+                "grade": 10
+              },
+              "rating": {
+                "stars": 4
+              },
+              "tags": [
+                "dyno"
+              ],
+              "description": "Start left hand in the start of Heisenberg, right hand on a low undercling. Dyno up and right to jugs near the lip. Way more fun than it looks.",
+              "transcription-notes": ""                  
+            },
+            {
+              "id": 20,
+              "name": "Octernal",
+              "type": "route",
+              "grade": {
+                "grade": 8
+              },
+              "rating": {
+                "stars": 4
+              },
+              "tags": [
+                "traverse",
+                "slopers",
+                "contrived"
+              ],
+              "description": "Arguably the best route in the area. Start low on an angular sloper for the left and a low pinch for the right. Slap up to the jug flake and shelf, and then cut left and traverse all the way to the jugs above Smackdown to top out.",
+              "transcription-notes": "Route ID replaced with route name."                  
+            },
+            {
+              "id": 21,
+              "name": "Octurnal Direct",
+              "type": "route",
+              "grade": {
+                "grade": 7
+              },
+              "rating": {
+                "stars": 4
+              },
+              "tags": [
+                "mantle"
+              ],
+              "variation": true,
+              "description": "Although almost never clean, this line is probably higher quality than Octernal because it follows an obvious path. Instead of traversing from the shelf, top out straight up.", 
+            },
+            {
+              "id": 22,
+              "name": "Bad Habits",
+              "type": "route",
+              "grade": {
+                "grade": 6
+              },
+              "rating": {
+                "stars": 2
+              },
+              "tags": [
+                "arête"
+              ],
+              "description": "When clean, this line starts on edges 4 feet right of Octernal and climbs up and right."                 
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "name": "The Bubbler",
+          "type": "boulder",
+          "children": [
+            {
+              "id": 32,
+              "name": "The Bubbler",
+              "type": "route",
+              "grade": {
+                "grade": 5
+              },
+              "rating": {
+                "stars": 2
+              },
+              "tags": [
+                "short"
+              ],
+              "description": "Start low on sidepulls and climb up the direction rail to a low top-out. Fun but short."              
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "name": "Fight Club",
+          "type": "boulder",
+          "children": [
+            {
+              "id": 33,
+              "name": "High Society",
+              "type": "route",
+              "grade": {
+                "grade": 2
+              },
+              "rating": {
+                "stars": 2
+              },
+              "tags": [
+                "arête"
+              ],
+              "description": "Stand start on a positive hold almost inside the crack between the two boulders. Move up the right arête."             
+            },
+            {
+              "id": 34,
+              "name": "Übermensch",
+              "type": "route",
+              "grade": {
+                "grade": 4
+              },
+              "rating": {
+                "stars": 2
+              },
+              "tags": [
+                "eliminate",
+                "contrived"
+              ],
+              "variant": true,
+              "eliminate": true,
+              "description": "Start as for High Society, but head up and left through edges to top out without the arête. It could be argued that this is the same line as the previous.",
+              "transcription-notes": "Route ID replaced with route name."                  
+            },
+            {
+              "id": 35,
+              "name": "Fight Club",
+              "type": "route",
+              "grade": {
+                "grade": 9
+              },
+              "rating": {
+                "stars": 2
+              },
+              "tags": [
+                "steep",
+                "contrived"
+              ],
+              "description": "Start as for High Society again, but move directly left and onto the front overhanging face of the boulder.",
+              "transcription-notes": "Route ID replaced with route name."                  
+            },
+            {
+              "id": 36,
+              "name": "Fight Club 2",
+              "type": "route",
+              "grade": {
+                "grade": 9
+              },
+              "rating": {
+                "stars": 2
+              },
+              "tags": [
+                "slopers",
+                "steep"
+              ],
+              "description": "Start on the large sloper down low and move up and right to join Fight Club on the center face."               
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "name": "Tyler Durden",
+          "type": "boulder",
+          "children": [
+            {
+              "id": 37,
+              "name": "Durden Lieback",
+              "type": "route",
+              "grade": {
+                "grade": 1
+              },
+              "rating": {
+                "stars": 3
+              },
+              "description": "Stand start and lie back the right side of the boulder, using the Fight Club boulder for feet."            
+            },
+            {
+              "id": 38,
+              "name": "Tyler Durden",
+              "type": "route",
+              "grade": {
+                "grade": 3
+              },
+              "rating": {
+                "stars": 3
+              },
+              "description": "Start on a flat rail at head height and move up and left to top out on the left face."                
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "name": "Trust",
+          "type": "boulder",
+          "children": [
+            {
+              "id": 39,
+              "name": "Trust",
+              "type": "route",
+              "grade": {
+                "grade": 1
+              },
+              "rating": {
+                "stars": 4
+              },
+              "description": "Sit start and climb the featured face. When clean, this is the best of the grade on Quartzville Drive."
+            },
+            {
+              "id": 40,
+              "name": "Iron Cross",
+              "type": "route",
+              "grade": {
+                "grade": 2
+              },
+              "rating": {
+                "stars": 2
+              },
+              "tags": [
+                "eliminate",
+                "contrived"
+              ],
+              "eliminate": true,
+              "description": "Start as for Trust, but at the large block move left through the horizontal break and top out on the left arête.",
+              "transcription-notes": "Route ID replaced with route name."                  
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "name": "Mini-Me",
+          "type": "boulder",
+          "children": [
+            {
+              "id": 41,
+              "name": "Mr. Bigglesworth",
+              "type": "route",
+              "grade": {
+                "grade": 1
+              },
+              "rating": {
+                "stars": 3
+              },
+              "tags": [
+                "short",
+                "slab",
+                "jugs"
+              ],
+              "description": "Stand start on holds on the slab and make a few moves to the juggy lip. Short and sweet, or just the former?"               
+            },
+            {
+              "id": 42,
+              "name": "Dr. Evil",
+              "type": "route",
+              "grade": {
+                "grade": 4
+              },
+              "rating": {
+                "stars": 2
+              },
+              "tags": [
+                "arête"
+              ],
+              "description": "Sit start on either side of the arête and climb up and right into Mr. Bigglesworth.",
+              "transcription-notes": "Route ID replaced with route name."                  
+            },
+            {
+              "id": 43,
+              "name": "Number 2",
+              "type": "route",
+              "grade": {
+                "grade": 3
+              },
+              "rating": {
+                "stars": 3
+              },
+              "tags": [
+                "contrived"
+              ],
+              "description": "Sit start as for Dr. Evil, but climb up and left to the left facing lip. Fun movement for its height.",
+              "transcription-notes": "Route ID replaced with route name."                  
+            },
+            {
+              "id": 44,
+              "name": "Austin Powers",
+              "type": "route",
+              "grade": {
+                "grade": 5
+              },
+              "rating": {
+                "stars": 2
+              },
+              "tags": [
+                "arête",
+                "traverse"
+              ],
+              "description": "Sit start on the left arête and climb it to the lip, then traverse the lip all the way to the apex."            
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "name": "Undertow",
+          "type": "boulder",
+          "children": [
+            {
+              "id": 45,
+              "name": "Spray Skirt",
+              "type": "route",
+              "grade": {
+                "grade": 8
+              },
+              "tags": [
+                "contrived"
+              ],
+              "description": "Contrived. Sit start on opposing undercling/sidepulls, move to a good hold and climb up using edges on the face."
+            },
+            {
+              "id": 46,
+              "name": "Undertow",
+              "type": "route",
+              "grade": {
+                "grade": 3
+              },
+              "rating": {
+                "stars": 3
+              },
+              "description": "Sit start as for Spray Skirt but climb up and left to the left facing lip. Fun movement for its height.",
+              "transcription-notes": "Route ID replaced with route name."                  
+            },
+            {
+              "id": 47,
+              "name": "Spray Against the Undertow",
+              "type": "route",
+              "grade": {
+                "grade": 6
+              },
+              "tags": [
+                "arête"
+              ],
+              "description": "Sit start as for Spray Skirt, but move right into Undertow at the good hold.",
+              "transcription-notes": "Route ID replaced with route name."                  
+            },
+            {
+              "id": 48,
+              "name": "Tide Pool",
+              "type": "route",
+              "grade": {
+                "grade": 8
+              },
+              "description": "Sit start on edges and climb the face up and right on big reaches between good holds. Rating unconfirmed."             
+            },
+            {
+              "id": 49,
+              "name": "Tide Pool to Undertow Project",
+              "type": "route",
+              "grade": {
+                "grade": -2
+              },
+              "description": "Tide Pool to Undertow. You get the idea."               
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "name": "Silly Steep",
+          "type": "boulder",
+          "children": [
+            {
+              "id": 50,
+              "name": "Silly Steep Mantle",
+              "type": "route",
+              "grade": {
+                "grade": 3
+              },
+              "rating": {
+                "stars": 3
+              },
+              "tags": [
+                "mantle"
+              ],
+              "description": "Start on the obvious block jug and mantle the boulder anywhere. Suprisingly fun."              
+            },
+            {
+              "id": 51,
+              "name": "Triple Squeeze Project",
+              "type": "route",
+              "grade": {
+                "grade": -2
+              },
+              "tags": [
+                "arête"
+              ],
+              "description": "Start in compression underneath the boulder. Squeeze harder."          
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "name": "E's Seven",
+          "type": "boulder",
+          "children": [
+            {
+              "id": 23,
+              "name": "E's Seven",
+              "type": "route",
+              "grade": {
+                "grade": 7,
+                "sub-grade": 0
+              },
+              "rating": {
+                "stars": 1
+              },
+              "description": "Start on an undercling and an edge and climb up uncomfortable holds to an easy top out. Often dirty."  
+            },
+            {
+              "id": 24,
+              "name": "E's Twelve Project",
+              "type": "route",
+              "grade": {
+                "grade": -2
+              },
+              "description": "A sit start to E's Seven is possible, might not be the best of lines though."
+            },
+            {
+              "id": 25,
+              "name": "Eazy E Project",
+              "type": "route",
+              "grade": {
+                "grade": -2
+              },
+              "tags": [
+                "pinches"
+              ],
+              "description": "Start low on an edge and climb through a dimpled pinch and up.",
+              "transcription-notes": ""                  
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "name": "Swollen Member",
+          "type": "boulder",
+          "children": [
+            {
+              "id": 26,
+              "name": "Swollen Member",
+              "type": "route",
+              "grade": {
+                "grade": 3
+              },
+              "rating": {
+                "stars": 3
+              },
+              "description": "Start spanned across the boulder on a left jug and a right sloper. Slap out the dong!"               
+            },
+            {
+              "id": 27,
+              "name": "Flesh Bridge",
+              "type": "route",
+              "grade": {
+                "grade": 8
+              },
+              "rating": {
+                "stars": 1
+              },
+              "description": "Start right hand in the pod and left hand out. Climb the dabby little roof. A low start might be possible?"                 
+            }
+          ]
+        },
+        {
+          "id": 26,
+          "name": "The Bubbler",
+          "type": "boulder",
+          "children": [
+            {
+              "id": 32,
+              "name": "The Bubbler",
+              "type": "route",
+              "grade": {
+                "grade": 5
+              },
+              "rating": {
+                "stars": 2
+              },
+              "tags": [
+                "short"
+              ],
+              "description": "Start low on sidepulls and climb up the direction rail to a low top-out. Fun but short."              
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "",
+          "type": "boulder",
+          "children": [
+            {
+              "id": 1,
+              "name": "",
+              "type": "route",
+              "grade": {
+                "grade": 2,
+                "sub-grade": 0
+              },
+              "tags": [
+                "arête"
+              ],
+              "description": "",
+              "transcription-notes": ""                  
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "",
+          "type": "boulder",
+          "children": [
+            {
+              "id": 1,
+              "name": "",
+              "type": "route",
+              "grade": {
+                "grade": 2,
+                "sub-grade": 0
+              },
+              "tags": [
+                "arête"
+              ],
+              "description": "",
+              "transcription-notes": ""                  
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "",
+          "type": "boulder",
+          "children": [
+            {
+              "id": 1,
+              "name": "",
+              "type": "route",
+              "grade": {
+                "grade": 2,
+                "sub-grade": 0
+              },
+              "tags": [
+                "arête"
+              ],
+              "description": "",
+              "transcription-notes": ""                  
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "",
+          "type": "boulder",
+          "children": [
+            {
+              "id": 1,
+              "name": "",
+              "type": "route",
+              "grade": {
+                "grade": 2,
+                "sub-grade": 0
+              },
+              "tags": [
+                "arête"
+              ],
+              "description": "",
+              "transcription-notes": ""                  
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "",
+          "type": "boulder",
+          "children": [
+            {
+              "id": 1,
+              "name": "",
+              "type": "route",
+              "grade": {
+                "grade": 2,
+                "sub-grade": 0
+              },
+              "tags": [
+                "arête"
+              ],
+              "description": "",
+              "transcription-notes": ""                  
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "",
+          "type": "boulder",
+          "children": [
+            {
+              "id": 1,
+              "name": "",
+              "type": "route",
+              "grade": {
+                "grade": 2,
+                "sub-grade": 0
+              },
+              "tags": [
+                "arête"
+              ],
+              "description": "",
+              "transcription-notes": ""                  
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "",
+          "type": "boulder",
+          "children": [
+            {
+              "id": 1,
+              "name": "",
+              "type": "route",
+              "grade": {
+                "grade": 2,
+                "sub-grade": 0
+              },
+              "tags": [
+                "arête"
+              ],
+              "description": "",
+              "transcription-notes": ""                  
+            }
+          ]
+        },
+      ]
+    }
+  ]
+}

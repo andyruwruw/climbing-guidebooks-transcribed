@@ -1,3 +1,16 @@
+## May 24, 2023
+
+- `v1.0.0` Garden Area Bouldering by Cooper Doe
+  - Finished transcriptions and pushed.
+- `v1.0.0` The Garden (2001) by Browne
+  - Finished transcriptions and pushed.
+- Added `section` to `type` field for text sections.
+- Added `rating-max` to guide to give ratings context.
+- Added `ratings` to routes when applicable.
+- Added `jugs` and `contrived` to `tags`.
+
+---
+
 ## May 9, 2023
 
 - Schema added to README.
